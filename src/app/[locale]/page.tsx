@@ -40,7 +40,7 @@ export async function generateMetadata({
         'zh': `${baseUrl}/zh`,
         'en': `${baseUrl}/en`,
         'sq': `${baseUrl}/sq`,
-        'x-default': `${baseUrl}/sq`,
+        'x-default': `${baseUrl}/en`,
       },
     },
   };
@@ -71,8 +71,9 @@ export default async function HomePage({
     question: string;
     answer: string;
   }>;
+  const galleryCaptions = (messages?.gallery?.captions || []) as string[];
   const inLanguage =
-    locale === 'zh' ? 'zh-CN' : locale === 'sq' ? 'sq-AL' : 'en';
+    locale === 'zh' ? 'zh-CN' : locale === 'sq' ? 'sq-AL' : locale === 'it' ? 'it-IT' : locale === 'fr' ? 'fr-FR' : 'en';
 
   const jsonLd = [
     {
@@ -147,6 +148,22 @@ export default async function HomePage({
         name: 'Lëkurësi Castle Sarandë — Travel Guide',
         url: `${baseUrl}/`,
       },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'ImageGallery',
+      name: 'Lëkurësi Castle Photo Gallery',
+      description: galleryCaptions[0] || 'Photos of Lëkurësi Castle in Sarandë, Albania',
+      url: `${url}#gallery`,
+      associatedMedia: Array.from({ length: 16 }, (_, i) => {
+        const caption = galleryCaptions[i] || `Lëkurësi Castle photo ${i + 1}`;
+        return {
+          '@type': 'ImageObject',
+          contentUrl: `${baseUrl}/gallery/lekuresi-castle-${String(i + 1).padStart(2, '0')}.jpg`,
+          name: caption,
+          caption,
+        };
+      }),
     },
   ];
 

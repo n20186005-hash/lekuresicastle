@@ -29,7 +29,7 @@ export async function generateMetadata({
       description: messages.meta.description,
       url: `${baseUrl}/${locale}`,
       siteName: 'Lëkurësi Castle',
-      locale: locale === 'zh' ? 'zh_CN' : locale === 'sq' ? 'sq_AL' : 'en_US',
+      locale: locale === 'zh' ? 'zh_CN' : locale === 'sq' ? 'sq_AL' : locale === 'it' ? 'it_IT' : locale === 'fr' ? 'fr_FR' : 'en_US',
       type: 'website',
       images: [
         {
@@ -66,7 +66,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale === 'zh' ? 'zh-CN' : locale === 'sq' ? 'sq-AL' : 'en'} suppressHydrationWarning>
+    <html lang={locale === 'zh' ? 'zh-CN' : locale === 'sq' ? 'sq-AL' : locale === 'it' ? 'it-IT' : 'en'} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{

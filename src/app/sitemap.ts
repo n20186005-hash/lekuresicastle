@@ -34,8 +34,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  // x-default 指向默认语言（sq）
-  entries[0].alternates!.languages!['x-default'] = `${baseUrl}/sq`;
+  // x-default 指向国际通用语言（en，GSC 数据显示 /en 为流量主导页）
+  entries[0].alternates!.languages!['x-default'] = `${baseUrl}/en`;
 
   return entries;
 }

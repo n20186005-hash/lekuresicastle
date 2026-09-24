@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Lëkurësi Castle Sarandë — Travel Guide",
-    "description": "Lëkurësi Castle (Kalaja e Lëkurësit) in Sarandë, Albania — a free hilltop fortress with panoramic Ionian views and sunset viewpoints. Practical transport, live weather, facilities, history and a visitor guide."
+    "description": "Lëkurësi Castle (Kalaja e Lëkurësit) in Sarandë, Albania — a free hilltop fortress with panoramic Ionian views and famous sunset viewpoints. Free entry, opening hours, how to get there, live weather, facilities, history and a visitor guide."
   },
   "header": {
     "home": "Home",
@@ -25,7 +25,7 @@
   },
   "intro": {
     "title": "Discover Lëkurësi Castle",
-    "description": "Lëkurësi Castle (also known as Lekursi Castle, or locally as Kalaja e Lëkurësit) is a 16th-century ruined fortress perched on a strategic hilltop overlooking Sarandë, Albania. Built in 1537 by Sultan Suleiman the Magnificent, the castle offers breathtaking panoramic views of the city, the Ionian Sea, and the island of Corfu. Today, it stands as a popular landmark and a stunning viewpoint, especially renowned for its spectacular sunsets.",
+    "description": "Lëkurësi Castle (also known as Lekursi Castle, or locally as Kalaja e Lëkurësit) is a 16th-century ruined fortress in Sarandë, Albania, perched on a strategic hilltop overlooking the city. Built in 1537 by Sultan Suleiman the Magnificent, the castle offers breathtaking panoramic views of Sarandë, the Ionian Sea, and the island of Corfu. Today it stands as a popular landmark and a stunning viewpoint above Sarandë, Albania, especially renowned for its spectacular sunsets.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -39,7 +39,7 @@
       "title": "Highlights",
       "items": [
         "16th-century Ottoman fortress ruins",
-        "Breathtaking views of Saranda and Corfu",
+        "Breathtaking views of Sarandë, Albania and Corfu",
         "Sunset viewpoint",
         "On-site restaurant and traditional music in summer"
       ]
@@ -379,22 +379,22 @@
     "title": "Photo Gallery",
     "subtitle": "The Beauty of Lëkurësi Castle",
     "captions": [
-      "Castle ruins and towers",
-      "Panoramic view of Saranda",
-      "Sunset over the Ionian Sea",
-      "Restaurant terrace inside the walls",
-      "View of Corfu island",
-      "16th-century stone masonry",
-      "Scenic road to the castle",
-      "Evening lights of Saranda",
-      "Olive groves on the hillside",
-      "Castle courtyard",
-      "Historic architecture",
-      "View of Butrint Lake",
-      "Summer evening atmosphere",
-      "View from the castle hill",
-      "Golden hour over the bay",
-      "Sunset view from the castle"
+      "Lëkurësi Castle hilltop ruins and round towers overlooking Sarandë, Albania",
+      "Panoramic view of Sarandë town and bay from Lëkurësi Castle",
+      "Spectacular sunset over the Ionian Sea seen from Lëkurësi Castle",
+      "Restaurant terrace inside the castle walls with sea views",
+      "View of Corfu island across the strait from the castle viewpoint",
+      "16th-century Ottoman stone masonry at Lëkurësi Castle",
+      "Scenic paved road winding up Lekursi Hill to the castle",
+      "Evening city lights of Sarandë from the hilltop viewpoint",
+      "Olive groves and Mediterranean maquis on the hillside below the castle",
+      "Castle courtyard and ramparts at Lëkurësi Castle",
+      "Historic fortress architecture and arched openings",
+      "View of Butrint Lake and the inland lagoon from the summit",
+      "Summer evening atmosphere at the popular sunset viewpoint",
+      "Wide view from the castle hill across Sarandë and the Ionian coast",
+      "Golden hour light over Sarandë bay from Lëkurësi Castle",
+      "Sunset viewpoint from Lëkurësi Castle above Sarandë"
     ],
     "viewAll": "View on Google Maps",
     "showAll": "View All Photos",
@@ -555,7 +555,7 @@
   },
   "seasonal": {
     "title": "Seasonal Visiting Guide",
-    "subtitle": "Sarandë has a mild Mediterranean climate. Use this quarter-by-quarter table to pick the best time and what to pack for the hilltop.",
+    "subtitle": "Sarandë, Albania has a mild Mediterranean climate. Use this quarter-by-quarter table to pick the best time and what to pack for the hilltop.",
     "cols": {
       "season": "Season",
       "climate": "Weather & Climate",

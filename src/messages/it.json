@@ -1,0 +1,698 @@
+{
+  "meta": {
+    "title": "Lëkurësi Castle Sarandë — Guida di Viaggio",
+    "description": "Lëkurësi Castle (Kalaja e Lëkurësit) a Sarandë, Albania — una fortezza collinare gratuita con viste panoramiche sullo Ionio e celebri punti panoramici per il tramonto. Ingresso gratuito, orari di apertura, come arrivare, meteo in diretta, servizi, storia e una guida per i visitatori."
+  },
+  "header": {
+    "home": "Home",
+    "overview": "Panoramica",
+    "history": "Storia",
+    "facilities": "Servizi",
+    "gallery": "Galleria",
+    "reviews": "Recensioni",
+    "map": "Mappa",
+    "backToHome": "Torna alla Home"
+  },
+  "hero": {
+    "title": "Lëkurësi Castle",
+    "subtitle": "Castello · Sarandë, Albania",
+    "aliases": "Noto anche come: Lekursi Castle · Kalaja e Lëkurësit",
+    "rating": "4.3",
+    "reviewCount": "8.009 recensioni",
+    "type": "Castello",
+    "openMaps": "Visualizza su Google Maps",
+    "mapsLink": "https://maps.app.goo.gl/Vh8wMe2L3UsdvpAC8"
+  },
+  "intro": {
+    "title": "Scopri il Castello di Lëkurësi",
+    "description": "Lëkurësi Castle (noto anche come Lekursi Castle, o localmente come Kalaja e Lëkurësit) è una fortezza in rovina del XVI secolo, posizionata su una collina strategica che domina Sarandë, in Albania. Costruito nel 1537 dal sultano ottomano Solimano il Magnifico, il castello offre viste panoramiche mozzafiato sulla città, sul mar Ionio e sull'isola di Corfù. Oggi è un punto di riferimento molto apprezzato e un suggestivo punto panoramico, celebre soprattutto per i suoi spettacolari tramonti.",
+    "visitGuide": {
+      "title": "Consigli per la Visita",
+      "items": [
+        "Perfetto per la fotografia, soprattutto al tramonto.",
+        "Cena al ristorante all'interno delle mura del castello con una terrazza aperta.",
+        "La cima offre un panorama quasi a 360° sulla baia di Saranda e sul lago di Butrinto.",
+        "Accesso tramite una scenica strada asfaltata, in auto, taxi o a piedi."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Punti Salienti",
+      "items": [
+        "Rovine di fortezza ottomana del XVI secolo",
+        "Viste mozzafiato di Saranda e Corfù",
+        "Punto panoramico sul tramonto",
+        "Ristorante in loco e musica tradizionale in estate"
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "Informazioni su Lëkurësi Castle",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Storia e Patrimonio",
+        "content": "Costruito nel 1537 dal sultano ottomano Solimano il Magnifico durante la sua campagna contro Corfù, il castello fu progettato per proteggere il porto di Saranda e la strada per Butrinto. Originariamente ospitava una guarnigione di 220 soldati. Il castello divenne in seguito un rifugio e fu infine abbandonato dopo il 1878, perdendo il suo ruolo militare."
+      },
+      {
+        "id": "architecture",
+        "title": "Architettura e Struttura",
+        "content": "Il castello ha una pianta approssimativamente quadrata con due grandi torri rotonde situate agli angoli nord-occidentale e sud-orientale. Le sue imponenti mura di pietra sono spesse circa 2 metri e raggiungono fino a 7 metri di altezza, mostrando la classica muratura in calcare del XVI secolo."
+      },
+      {
+        "id": "geography",
+        "title": "Posizione e Paesaggio",
+        "content": "Situato sulla collina di Lekursi, a sud-est del centro di Saranda, la fortezza domina un punto di osservazione impareggiabile. I pendii attorno al castello sono punteggiati di ulivi e macchia mediterranea, creando un pittoresco contesto naturale."
+      },
+      {
+        "id": "protection",
+        "title": "Rilevanza Moderna",
+        "content": "In seguito a restauri parziali nel XX e XXI secolo, Lëkurësi Castle si è trasformato nel principale punto panoramico di Saranda. L'interno ospita oggi un ristorante molto frequentato, rendendolo un vivace polo culturale e turistico, soprattutto nelle serate estive."
+      },
+      {
+        "id": "panorama",
+        "title": "Vista Panoramica a 360°",
+        "content": "Dalle mura del castello si può ammirare un panorama quasi a 360° che abbraccia l'isola di Corfù a ovest, le spiagge di Ksamil e gli isolotti dello Ionio a sud, il lago di Butrinto nell'entroterra e l'intera distesa di Saranda e della sua baia sottostante. Con il cielo sereno la vista arriva fino all'isola greca di Paxos."
+      },
+      {
+        "id": "restaurant",
+        "title": "Il Ristorante del Castello",
+        "content": "Il Restorant Kalaja e Lëkurësit in loco è un ristorante all'aperto all'interno delle mura del castello che serve cucina albanese tradizionale — carne grigliata, formaggio locale e frutti di mare — con una terrazza che si affaccia su tutta la baia. Nelle serate estive ospita musica e danze popolari albanesi, rendendolo uno dei luoghi di ristoro più suggestivi di Saranda."
+      },
+      {
+        "id": "defense",
+        "title": "Sistema Difensivo e Disposizione Strategica",
+        "content": "Lëkurësi Castle fu costruito come avamposto difensivo durante la campagna del 1537 di Solimano il Magnifico contro Corfù. Proteggeva il porto di Sarandë e garantiva la via verso l'entroterra di Butrinto contro le incursioni dal mare. La pianta quadrata, le due torri rotonde d'angolo e le mura spesse circa 2 metri furono progettate per resistere al fuoco d'artiglieria, mentre la posizione elevata sulla collina di Lekursi dava alla guarnigione il controllo a vista della baia, del canale di Corfù e della strada per Butrinto."
+      },
+      {
+        "id": "butrint",
+        "title": "Collegamento con la Città Antica di Butrinto",
+        "content": "Il castello sorge lungo il corridoio storico che collega Sarandë a Butrinto, l'antica città patrimonio dell'UNESCO a circa 18 km a sud. Ai tempi ottomani la fortezza guardava questo stesso corridoio, e oggi i due siti possono essere combinati in una sola giornata: dalla terrazza del castello l'area di Butrinto è visibile all'orizzonte, mentre il tragitto prosegue lungo le spiagge di Ksamil e il canale di Vivari. Un castello di collina e un'antica città lacustre raccontano insieme la storia di come questa costa fu difesa e abitata dall'antichità fino all'epoca ottomana."
+      }
+    ]
+  },
+  "quickFacts": {
+    "title": "Fatti Veloci in Sintesi",
+    "items": [
+      {
+        "key": "entranceFee",
+        "label": "Ingresso",
+        "value": "Gratuito — non è richiesto biglietto per l'area del castello"
+      },
+      {
+        "key": "openingHours",
+        "label": "Orari di Apertura",
+        "value": "Aperto 08:00–23:00 tutti i giorni"
+      },
+      {
+        "key": "distance",
+        "label": "Distanza da Sarandë",
+        "value": "~4 km · 10 min in taxi, 45–60 min a piedi in salita"
+      },
+      {
+        "key": "bestTime",
+        "label": "Miglior Periodo per la Visita",
+        "value": "1 ora prima del tramonto — l'Ora Dorata su Corfù e la Baia"
+      },
+      {
+        "key": "facilities",
+        "label": "Servizi in Loco",
+        "value": "Restorant Kalaja e Lëkurësit · Parcheggio · Bar"
+      }
+    ]
+  },
+  "weather": {
+    "title": "Meteo e Orari del Tramonto",
+    "subtitle": "Condizioni in tempo reale sopra Saranda — controlla prima di salire sulla collina.",
+    "current": "Condizioni Attuali",
+    "temp": "Temperatura",
+    "feelsLike": "Percepiti",
+    "wind": "Vento",
+    "humidity": "Umidità",
+    "sunrise": "Alba",
+    "sunset": "Tramonto",
+    "sunsetTip": "Arriva 45–60 minuti prima del tramonto per cogliere l'ora dorata su Corfù.",
+    "forecast": "Previsioni a 7 Giorni",
+    "precip": "Precipitazioni",
+    "precipNone": "Asciutto",
+    "rainChance": "Probabilità di pioggia",
+    "umbrellaYes": "Oggi è probabile la pioggia — porta un ombrello o un leggero impermeabile per la cima.",
+    "umbrellaNo": "Nessuna pioggia prevista oggi — buone condizioni per la salita e il punto panoramico.",
+    "loading": "Caricamento meteo in tempo reale…",
+    "error": "Il meteo in tempo reale è temporaneamente non disponibile — controlla le previsioni locali del giorno.",
+    "updated": "Meteo in tempo reale, aggiornato a tutte le ore",
+    "conditions": {
+      "clear": "Cielo sereno",
+      "mainlyClear": "Prevalentemente sereno",
+      "partlyCloudy": "Parzialmente nuvoloso",
+      "overcast": "Nuvoloso",
+      "fog": "Nebbia",
+      "drizzle": "Pioggia debole",
+      "rain": "Pioggia",
+      "freezingRain": "Pioggia gelata",
+      "snow": "Neve",
+      "showers": "Rovesci di pioggia",
+      "snowShowers": "Rovesci di neve",
+      "thunderstorm": "Temporale"
+    }
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "items": [
+      {
+        "question": "Lëkurësi Castle è gratuito da visitare?",
+        "answer": "Sì, la visita all'area del castello di Lëkurësi e la vista panoramica sui tramonti è completamente gratuita. I costi si applicano solo se si cena al ristorante in loco."
+      },
+      {
+        "question": "Come arrivare da Saranda a Lëkurësi Castle?",
+        "answer": "Puoi raggiungere Lëkurësi Castle con un taxi di 10 minuti (circa €10–15) o salendo in auto per la strada collinare asfaltata. La camminata richiede circa 45–60 minuti dal centro città — evita il caldo di mezzogiorno in estate."
+      },
+      {
+        "question": "Qual è il momento migliore per vedere il tramonto a Lëkurësi Castle?",
+        "answer": "Arriva circa 45–60 minuti prima del tramonto per assicurarti un buon posto. L'ora dorata getta una luce drammatica su Saranda, la baia e l'isola di Corfù. Gli orari del tramonto variano a seconda della stagione — controlla le previsioni locali del giorno."
+      },
+      {
+        "question": "Posso prenotare un tavolo al ristorante del castello?",
+        "answer": "Sì. Il Restorant Kalaja e Lëkurësit in loco serve piatti albanesi tradizionali, carne grigliata e formaggio locale. In estate, i tavoli sulla terrazza aperta sono molto richiesti, quindi è saggio prenotare in anticipo, soprattutto per il tramonto."
+      },
+      {
+        "question": "Quanto dista Lëkurësi Castle da Saranda?",
+        "answer": "Il castello si trova a circa 4 km dal centro di Saranda, sulla collina di Lekursi — circa 10 minuti in auto o taxi, o 45–60 minuti a piedi in salita."
+      },
+      {
+        "question": "C'è parcheggio a Lëkurësi Castle?",
+        "answer": "Sì, c'è un parcheggio gratuito alla sommità. Arriva almeno mezz'ora prima del tramonto in alta stagione, poiché i posti si riempiono rapidamente."
+      },
+      {
+        "question": "Ci sono servizi o ristoranti in loco?",
+        "answer": "Sì, c'è un ampio ristorante situato proprio all'interno delle mura del castello che offre cucina albanese e mediterranea, bevande e viste incredibili dalla sua terrazza."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Informazioni di Base",
+    "officialName": "Nome Ufficiale",
+    "officialNameValue": "Kalaja e Lëkurësit",
+    "type": "Tipo di Attrazione",
+    "typeValue": "Castello",
+    "country": "Paese",
+    "countryValue": "Albania",
+    "city": "Città",
+    "cityValue": "Sarandë",
+    "googleRating": "Valutazione Google",
+    "googleRatingValue": "4.3 (8.009)",
+    "address": "Indirizzo",
+    "addressValue": "Sarandë, Albania",
+    "accessibility": "Accessibilità",
+    "accessibilityValue": "Parzialmente accessibile",
+    "plusCode": "Codice Plus",
+    "plusCodeValue": "V28G+97 Sarandë, Albania"
+  },
+  "hours": {
+    "title": "Orari di Visita",
+    "park": "Accesso al Castello",
+    "parkTime": "08:00–23:00 tutti i giorni",
+    "bestTime": "Miglior Periodo per la Visita",
+    "bestTimeSpring": "Primavera: clima piacevole e viste limpide",
+    "bestTimeSummer": "Estate: atmosfera vivace e musica dal vivo la sera",
+    "bestTimeAutumn": "Autunno: temperature più fresche, perfette per salire a piedi",
+    "bestTimeWinter": "Inverno: panorami tranquilli e silenziosi",
+    "tip": "Visita circa un'ora prima del tramonto per la luce e le viste più spettacolari sull'Mar Ionio."
+  },
+  "tickets": {
+    "title": "Informazioni sulla Biglietteria",
+    "park": "Ingresso al Castello",
+    "parkPrice": "Accesso pubblico gratuito",
+    "parking": "Parcheggio",
+    "parkingPrice": "Parcheggio gratuito disponibile in cima",
+    "guided": "Visite Guidate",
+    "guidedPrice": "Incluse in molti tour di un giorno da Saranda"
+  },
+  "transport": {
+    "title": "Come Arrivare",
+    "fromCenter": "Dal Centro Città",
+    "fromCenterDesc": "Un taxi dal centro di Sarandë o dal lungomare richiede circa 10 minuti e costa circa €10–15 (1.200–1.800 LEK). Concorda la tariffa prima di partire, oppure usa un'app di ride-hailing se disponibile. Il taxi ti lascia in cima, proprio accanto alle mura del castello.",
+    "fromStation": "Dal Porto dei Traghetti",
+    "fromStationDesc": "Il terminal dei traghetti di Sarandë (da/per Corfù) è a circa 10–15 minuti in taxi. In estate, navette minibus collegano anche l'area del porto al centro città, dove puoi cambiare per un taxi per la salita finale alla collina.",
+    "fromAirport": "Dagli Aeroporti",
+    "fromAirportDesc": "Aeroporti più vicini: Aeroporto Internazionale di Tirana (TIA, ~280 km, 4–5 h in autobus intercity o transfer privato) e Aeroporto Internazionale di Corfù (CFU, Grecia). Da Corfù, prendi il traghetto per Sarandë (≈30 min, frequente in estate), poi un taxi su per la collina. Da Tirana, autobus diretti partono più volte al giorno per Sarandë; dalla stazione degli autobus un taxi copre gli ultimi 4 km fino alla sommità.",
+    "publicTransport": "Trasporto Pubblico",
+    "publicTransportDesc": "Non c'è un autobus pubblico che sale fino in cima. Autobus locali e minibus furgon collegano Sarandë con le città vicine e si fermano lungo la strada montana inferiore; dalla fermata più vicina sono 20–30 minuti a piedi in salita o un breve tragitto in taxi. Per la cima stessa, il taxi resta l'opzione più semplice.",
+    "walking": "A Piedi",
+    "walkingDesc": "Dal centro città, segui Rruga Mitat Hoxha in salita, poi la strada a tornanti asfaltata (Rruga e Kalasë) — circa 45–60 minuti a piedi. La salita è esposta e ripida; in estate inizia dopo le 17:00 per evitare il caldo di mezzogiorno e porta almeno 1 L d'acqua. Si consigliano scarpe comode.",
+    "driving": "In Auto",
+    "drivingDesc": "La strada asfaltata che sale sulla collina di Lekursi è in buone condizioni e adatta a auto e pullman turistici. Un parcheggio gratuito si trova in cima, appena sotto le mura. I posti si riempiono rapidamente nell'ora prima del tramonto (giugno–settembre), quindi arriva presto se vai in auto."
+  },
+  "facilities": {
+    "title": "Servizi e Strutture",
+    "subtitle": "Cosa troverai e cosa non troverai al castello — dai bagni al parcheggio, fino a ristorazione, carburante e alloggio.",
+    "note": "In quanto piattaforma indipendente di informazione no-profit, elenchiamo solo i tipi di servizi e non raccomandiamo mai attività commerciali specifiche.",
+    "items": [
+      {
+        "id": "wc",
+        "title": "Bagni Pubblici",
+        "description": "Non ci sono bagni pubblici all'interno dell'area del castello. I servizi igienici sono disponibili al ristorante in loco e ai caffè lungo la strada di accesso per i clienti. I più vicini servizi pubblici si trovano nel centro di Sarandë, a circa 10 minuti in discesa."
+      },
+      {
+        "id": "parking",
+        "title": "Parcheggio",
+        "description": "Un'area di parcheggio gratuita si trova in cima, appena sotto le mura del castello. I posti sono limitati e si riempiono rapidamente nell'ora prima del tramonto — è vivamente consigliato arrivare presto, soprattutto da giugno a settembre."
+      },
+      {
+        "id": "dining",
+        "title": "Ristoranti",
+        "description": "All'interno delle mura, un ristorante stagionale all'aperto serve piatti albanesi e mediterranei tradizionali — carni grigliate, frutti di mare freschi e formaggi locali. Altri ristoranti e taverne costeggiano la strada di accesso e il lungomare di Sarandë."
+      },
+      {
+        "id": "cafes",
+        "title": "Caffè e Bar",
+        "description": "In estate, caffè e bar in cima servono bevande, caffè e rinfreschi con vista panoramica. Nella bassa stagione, le opzioni in cima sono limitate o chiuse, quindi pianifica in anticipo."
+      },
+      {
+        "id": "accommodation",
+        "title": "Alloggio",
+        "description": "Non c'è alloggio presso il castello stesso. Hotel, guesthouse e appartamenti abbondano nel centro di Sarandë e lungo la sua baia — a circa 10 minuti in auto."
+      },
+      {
+        "id": "shopping",
+        "title": "Negozi e Supermercati",
+        "description": "La cima non ha negozi. Supermercati, panetterie, farmacie e negozi di souvenir sono concentrati nel centro di Sarandë e lungo la strada costiera principale."
+      },
+      {
+        "id": "fuel",
+        "title": "Carburante e Ricarica EV",
+        "description": "Le stazioni di servizio si trovano nel centro di Sarandë e sulle strade di accesso principali. I punti di ricarica EV pubblici sono ancora scarsi nella zona; i più vicini si trovano generalmente vicino al porto e lungo il viale principale."
+      },
+      {
+        "id": "atm",
+        "title": "Bancomat e Denaro",
+        "description": "Bancomat e uffici di cambio sono disponibili nel centro di Sarandë. Le carte sono accettate nella maggior parte dei ristoranti, ma è saggio portare contanti (LEK o EUR) poiché la cima non offre servizi bancari."
+      },
+      {
+        "id": "medical",
+        "title": "Farmacie e Pronto Soccorso",
+        "description": "Non c'è farmacia o presidio medico in cima. Farmacie, cliniche e l'ospedale di Sarandë si trovano nel centro città, a circa 10 minuti in auto. Porta con te eventuali farmaci personali, crema solare e acqua, poiché la cima è esposta in estate."
+      },
+      {
+        "id": "accessibility",
+        "title": "Accessibilità",
+        "description": "L'altopiano del castello è raggiungibile da un breve sentiero leggermente in pendenza dal parcheggio in cima, e l'area interna è per lo più senza gradini e percorribile. Le storiche scale di pietra e le mura in rovina sono irregolari, quindi scarpe robuste aiutano; i visitatori con mobilità ridotta possono godersi la terrazza e il panorama vicino all'ingresso senza scalare i bastioni."
+      }
+    ]
+  },
+  "history": {
+    "title": "La Storia nel Tempo",
+    "subtitle": "Da fortezza ottomana del XVI secolo al punto panoramico preferito per il tramonto a Sarandë.",
+    "timeline": [
+      {
+        "era": "1537",
+        "title": "Fondazione sotto Solimano il Magnifico",
+        "content": "La fortezza fu eretta sulla collina di Lekursi nel 1537 per ordine del sultano ottomano Solimano il Magnifico, durante la sua campagna contro l'isola di Corfù. Sorvegliava il porto di Sarandë, controllava la strada costiera e proteggeva la via verso l'entroterra di Butrinto. I resoconti contemporanei menzionano una guarnigione iniziale di circa 220 soldati."
+      },
+      {
+        "era": "16th–18th c.",
+        "title": "Una piccola fortezza ottomana",
+        "content": "Per circa due secoli il castello funse da modesta fortezza-torre di avvistamento più che da grande cittadella. La sua pianta quadrata con due massicce torri rotonde agli angoli opposti segue il classico design militare del XVI secolo, mentre le mura — alte fino a 7 metri e spesse 2 metri — furono costruite in calcare locale."
+      },
+      {
+        "era": "1878",
+        "title": "Perdita del ruolo militare e abbandono",
+        "content": "Dopo la guerra russo-turca e il ridisegno dei confini alla fine del XIX secolo, il valore strategico del castello scomparve. Fu gradualmente abbandonato dopo il 1878, lasciato sgretolare e riappropriarsi dalla vegetazione sulla cima."
+      },
+      {
+        "era": "20th c.",
+        "title": "Riscoperta e restauro",
+        "content": "Nel XX secolo, lavori di consolidamento e restauro parziale hanno preservato le mura superstiti. Il sito fu riconosciuto come monumento culturale protetto e divenne un tranquillo punto di osservazione apprezzato da residenti e viaggiatori."
+      },
+      {
+        "era": "Today",
+        "title": "Il punto panoramico di riferimento di Sarandë",
+        "content": "Oggi Lëkurësi Castle è tra i punti panoramici più visitati dell'Albania meridionale. Un ristorante stagionale opera all'interno delle mura, e ogni sera la terrazza si riempie di visitatori che guardano il sole calare sul mar Ionio e sull'isola di Corfù."
+      }
+    ]
+  },
+  "legends": {
+    "title": "Storie e Leggende Locali",
+    "note": "Le storie qui sotto sono tradizioni popolari e leggende orali. Sono raccontate da residenti e viaggiatori locali ma non sono state confermate da documenti storici.",
+    "items": [
+      {
+        "id": "name",
+        "kind": "folk",
+        "kindLabel": "Etimologia popolare",
+        "title": "Da dove viene il nome \"Lëkurës\"?",
+        "content": "Una tradizione locale molto ripetuta collega il nome con la parola albanese \"lëkurë\" (pelle o cuoio), suggerendo che la collina fosse un tempo legata alla lavorazione del cuoio o alla concia. Altri lo fanno risalire a un nome di famiglia locale o a una parola greca più antica per il distretto. Nessuna di queste spiegazioni è confermata — restano etimologie popolari."
+      },
+      {
+        "id": "sultan",
+        "kind": "folk",
+        "kindLabel": "Leggenda locale",
+        "title": "La scelta della collina da parte del sultano",
+        "content": "Secondo un racconto popolare, lo stesso Solimano il Magnifico salì sulla collina di Lekursi per scegliere il sito, e dalla torre incompiuta osservò i fuochi della sua flotta in preparazione per colpire Corfù. È una storia vivida spesso ripetuta ai visitatori, anche se nessuna fonte coeva ne attesta una tale visita."
+      },
+      {
+        "id": "guards",
+        "kind": "folk",
+        "kindLabel": "Racconto popolare",
+        "title": "Le guardie silenziose delle mura",
+        "content": "Un vecchio racconto popolare sostiene che nelle notti di luna piena si possano ancora vedere le sagome delle guardie ottomane scomparse passeggiare sulle mura. Gli anziani residenti di Sarandë amano ripetere la storia, ma nessuno ha mai prodotto un testimone di prima mano."
+      },
+      {
+        "id": "treasure",
+        "kind": "folk",
+        "kindLabel": "Racconto di tesoro",
+        "title": "Il tesoro sepolto della collina",
+        "content": "Un altro racconto spesso narrato parla di un tesoro sepolto dalla guarnigione prima che la fortezza fosse abbandonata nel 1878. Generazioni di cercatori di tesori hanno scavato tra gli uliveti — non trovando altro che pietre e radici, e lasciando crescere la leggenda."
+      }
+    ]
+  },
+  "route": {
+    "title": "Itinerario Consigliato",
+    "overview": "Vivi il meglio di Lëkurësi Castle e dei suoi straordinari dintorni.",
+    "steps": [
+      "Parti dal centro o dal lungomare di Saranda",
+      "Prendi un taxi o sali in auto per la scenica strada tortuosa fino alla collina di Lekursi",
+      "Esplora le mura in rovina e le torri rotonde della fortezza",
+      "Scatta foto del panorama su baia di Saranda e Corfù",
+      "Rilassati con un drink o una cena al ristorante del castello durante il tramonto"
+    ]
+  },
+  "gallery": {
+    "title": "Galleria Fotografica",
+    "subtitle": "La Bellezza di Lëkurësi Castle",
+    "captions": [
+      "Rovine e torri rotonde sulla cima di Lëkurësi Castle che dominano Sarandë, Albania",
+      "Vista panoramica della città e della baia di Sarandë da Lëkurësi Castle",
+      "Tramonto spettacolare sul mar Ionio visto da Lëkurësi Castle",
+      "Terrazza del ristorante all'interno delle mura con vista sul mare",
+      "Vista dell'isola di Corfù attraverso lo stretto dal punto panoramico del castello",
+      "Muratura in pietra ottomana del XVI secolo a Lëkurësi Castle",
+      "Scenica strada asfaltata che sale serpeggiante alla collina di Lekursi fino al castello",
+      "Luci della città di Sarandë di sera dal punto panoramico in cima",
+      "Uliveti e macchia mediterranea sul pendio sotto il castello",
+      "Cortile e bastioni del castello a Lëkurësi Castle",
+      "Architettura storica della fortezza e aperture ad arco",
+      "Vista del lago di Butrinto e della laguna interna dalla sommità",
+      "Atmosfera estiva di sera nel popolare punto panoramico per il tramonto",
+      "Ampia vista dalla collina del castello su Sarandë e la costa dello Ionio",
+      "Luce dell'ora dorata sulla baia di Sarandë da Lëkurësi Castle",
+      "Punto panoramico sul tramonto da Lëkurësi Castle sopra Sarandë"
+    ],
+    "viewAll": "Visualizza su Google Maps",
+    "showAll": "Vedi Tutte le Foto",
+    "showLess": "Mostra Meno"
+  },
+  "reviews": {
+    "title": "Recensioni dei Visitatori",
+    "declaration": "Le recensioni sono tratte dalle inserzioni di Google Maps e riflettono esclusivamente le opinioni dei singoli recensori.",
+    "moreReviews": "Vedi altre recensioni su Google Maps",
+    "items": [
+      {
+        "name": "James W.",
+        "rating": 5,
+        "date": "2026-04-10",
+        "text": "Viste assolutamente mozzafiato! Guardare il tramonto su Saranda e Corfù dalle mura del castello è un'esperienza indimenticabile."
+      },
+      {
+        "name": "Sophia M.",
+        "rating": 5,
+        "date": "2026-03-22",
+        "text": "Ottimo sito storico con un ristorante incredibile all'interno. L'atmosfera con la musica popolare albanese dal vivo in estate era fantastica."
+      },
+      {
+        "name": "Andreas K.",
+        "rating": 4,
+        "date": "2026-02-15",
+        "text": "La salita a piedi è piuttosto ripida e calda, ma il panorama in cima vale completamente la pena. Una tappa imperdibile a Saranda!"
+      },
+      {
+        "name": "Emma L.",
+        "rating": 5,
+        "date": "2026-01-30",
+        "text": "Bellissimo castello in rovina. L'ingresso e l'esplorazione sono gratuiti. Abbiamo cenato sulla terrazza affacciata sulla città."
+      },
+      {
+        "name": "Michael R.",
+        "rating": 5,
+        "date": "2025-12-18",
+        "text": "Un luogo meraviglioso per scattare foto. Le mura del XVI secolo sono impressionanti e la vista sulla baia è mozzafiato."
+      },
+      {
+        "name": "Linda T.",
+        "rating": 5,
+        "date": "2025-11-25",
+        "text": "Uno dei migliori punti panoramici in Albania. Assicurati di venire qui durante l'ora dorata per la migliore illuminazione."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Posizione sulla Mappa",
+    "subtitle": "V28G+97 Sarandë, Albania",
+    "openMaps": "Visualizza su Google Maps"
+  },
+  "footer": {
+    "brandName": "Lëkurësi Castle",
+    "brandSubtitle": "Castello · Sarandë, Albania",
+    "rights": "© 2026 Progetto Indipendente di Ricerca Turistica · Tutti i Diritti Riservati.",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "cookies": "Impostazioni Cookie",
+    "officialResourcesTitle": "Risorse e Informazioni Ufficiali",
+    "officialLinks": {
+      "mfa": "Ministero per l'Europa e gli Affari Esteri - Regime Visti",
+      "akt": "Agenzia Nazionale del Turismo dell'Albania",
+      "qarku": "Consiglio della Contea di Valona",
+      "saranda": "Comune di Sarandë",
+      "iktk": "Istituto Nazionale del Patrimonio Culturale",
+      "arkiva": "Direzione Generale degli Archivi"
+    },
+    "disclaimer": "Questo sito web è un progetto indipendente di informazione turistica di terze parti. Non siamo affiliati con il governo locale o con altre agenzie ufficiali.",
+    "imageRights": "Tutte le immagini mostrate su questo sito web sono di proprietà e copyright dei rispettivi fotografi."
+  },
+  "sources": {
+    "title": "Fonti e Riferimenti",
+    "description": "Visitando Lëkurësi Castle, puoi esplorare facilmente luoghi di interesse vicini come Butrinto (un sito patrimonio dell'UNESCO) e le Isole di Ksamil. Per aggiornamenti ufficiali e informazioni turistiche regionali, consulta le fonti sottostanti.",
+    "officialPortalLabel": "Portale Turistico Ufficiale dell'Albania",
+    "items": [
+      {
+        "label": "Albania — Portale Turistico Ufficiale",
+        "url": "https://albania.al/"
+      },
+      {
+        "label": "Agenzia Nazionale del Turismo dell'Albania (AKT)",
+        "url": "https://akt.gov.al/"
+      },
+      {
+        "label": "Comune di Sarandë",
+        "url": "https://bashkiasarande.gov.al/"
+      },
+      {
+        "label": "Istituto Nazionale del Patrimonio Culturale (IKTK)",
+        "url": "https://iktk.gov.al/"
+      },
+      {
+        "label": "Centro del Patrimonio Mondiale dell'UNESCO — Butrinto",
+        "url": "https://whc.unesco.org/en/list/570/"
+      }
+    ]
+  },
+  "officialManagement": {
+    "title": "Informazioni su Lëkurësi Castle",
+    "text": "Lëkurësi Castle è un monumento culturale protetto gestito dall'Istituto Nazionale del Patrimonio Culturale dell'Albania e dal Comune di Sarandë. I servizi ristorativi all'interno della struttura sono gestiti privatamente."
+  },
+  "privacy": {
+    "title": "Informativa sulla Privacy",
+    "lastUpdated": "Ultimo aggiornamento: 31 agosto 2026",
+    "sections": [
+      {
+        "heading": "Raccolta di Informazioni",
+        "content": "Quando visiti il nostro sito web, potremmo raccogliere automaticamente informazioni di base sul tuo dispositivo, browser e comportamento di navigazione per offrire una migliore esperienza utente. Queste informazioni non contengono la tua identità personale."
+      },
+      {
+        "heading": "Utilizzo dei Cookie",
+        "content": "Utilizziamo cookie per analizzare il traffico del sito web e ottimizzare i contenuti delle pagine. Puoi gestire le tue preferenze in qualsiasi momento tramite l'opzione Impostazioni Cookie in fondo al nostro sito."
+      },
+      {
+        "heading": "Sicurezza e Protezione dei Dati",
+        "content": "Ci impegniamo a proteggere la sicurezza dei tuoi dati privati e non venderemo, affitteremo o scambieremo i tuoi dati di navigazione con organizzazioni commerciali terze."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Termini di Servizio",
+    "lastUpdated": "Ultimo aggiornamento: 31 agosto 2026",
+    "sections": [
+      {
+        "heading": "Contenuto e Utilizzo del Sito",
+        "content": "Questo sito web fornisce informazioni di viaggio, trasporto e storiche su Lëkurësi Castle. Tutti i contenuti sono solo a scopo di riferimento. Gli orari di apertura e le informazioni sulle attrazioni possono variare in qualsiasi momento; si prega di fare riferimento agli annunci ufficiali."
+      },
+      {
+        "heading": "Proprietà Intellettuale",
+        "content": "Testi, immagini e design su questo sito web sono protetti da copyright. Senza esplicito permesso scritto, nessuno può utilizzare i contenuti del sito per scopi commerciali."
+      },
+      {
+        "heading": "Esclusione di Responsabilità",
+        "content": "Ci impegniamo a garantire l'accuratezza e l'attualità delle informazioni, ma non assumiamo responsabilità legale per ritardi di viaggio o perdite causate direttamente o indirettamente dall'utilizzo delle informazioni fornite su questo sito web."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Impostazioni Cookie",
+    "description": "Gestisci le tue preferenze sui cookie.",
+    "essential": {
+      "title": "Cookie Essenziali",
+      "description": "Necessari per le funzionalità di base del sito web e non possono essere disattivati.",
+      "badge": "Sempre Attivi"
+    },
+    "analytics": {
+      "title": "Analitica",
+      "description": "Ci aiutano a capire il comportamento dei visitatori e a migliorare il sito web."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Utilizzati per il tracciamento cross-site e per la consegna di annunci personalizzati."
+    },
+    "save": "Salva Preferenze",
+    "saved": "Preferenze Salvate!"
+  },
+  "seasonal": {
+    "title": "Guida alle Visite Stagionali",
+    "subtitle": "Sarandë ha un clima mediterraneo mite. Usa questa tabella trimestrale per scegliere il momento migliore e cosa portare per la cima.",
+    "cols": {
+      "season": "Stagione",
+      "climate": "Clima e Meteo",
+      "bestFor": "Ideale Per",
+      "tip": "Consiglio per i Visitatori"
+    },
+    "rows": [
+      {
+        "season": "Primavera (mar–mag)",
+        "climate": "Mite e fresco, 15–23°C, occasionali piogge primaverili, fiori selvatici nella macchia.",
+        "bestFor": "Panorami limpidi, salita a piedi, fotografia con luce soft.",
+        "tip": "Porta una giacca leggera per la cima ventosa; i mattini possono essere freschi."
+      },
+      {
+        "season": "Estate (giu–set)",
+        "climate": "Caldo e secco, 28–34°C, quasi soleggiato ogni giorno, affollato di visitatori.",
+        "bestFor": "Cene al tramonto, nuoto a Ksamil, atmosfera serale vivace.",
+        "tip": "Sali dopo le 17:00, porta acqua e protezione solare; il parcheggio si riempie prima del tramonto."
+      },
+      {
+        "season": "Autunno (ott–nov)",
+        "climate": "Caldo e calmo, 18–26°C, meno folla, mare ancora balneabile fino a ottobre.",
+        "bestFor": "Fotografia dell'ora dorata, passeggiate confortevoli, abbinato a Butrinto.",
+        "tip": "La stagione più equilibrata — prenota i ristoranti in anticipo nei fine settimana."
+      },
+      {
+        "season": "Inverno (dic–feb)",
+        "climate": "Mite ma umido, 10–15°C, giorni piovosi e nuvole occasionali sulla baia.",
+        "bestFor": "Panorami tranquilli, drammatici mari temporaleschi, folla minima.",
+        "tip": "Controlla le previsioni in tempo reale; alcuni caffè in cima chiudono nella bassa stagione."
+      }
+    ]
+  },
+  "ecological": {
+    "title": "Clima, Mare e Natura",
+    "subtitle": "Una sintesi in linguaggio semplice delle medie climatiche di lungo periodo di Sarandë e dell'ambiente costiero dello Ionio attorno al castello — per la pianificazione, non come previsione ufficiale.",
+    "points": [
+      "Sarandë si trova in una fascia a clima mediterraneo: estati calde e secche, inverni miti e più umidi, con circa 300 giorni di sole l'anno e pochissime piogge estive.",
+      "La collina del castello cattura la brezza marina dello Ionio, quindi anche nei giorni caldi d'estate la sommità è di qualche grado più fresca della città sottostante — ma è esposta completamente a sole e vento.",
+      "Il mar Ionio qui è più limpido e caldo dalla tarda primavera all'inizio dell'autunno (acque spesso 22–26°C in estate), rendendo la baia ideale per il nuoto e il punto panoramico ancora più blu.",
+      "I pendii sono coperti di macchia mediterranea — ulivi, mirto, ginestra spinosa ed erbe profumate — e in primavera si riempiono di fiori selvatici che attirano api e farfalle.",
+      "La costa si trova su un importante corridoio di migrazione degli uccelli; in primavera e autunno puoi avvistare rapaci e uccelli marini di passaggio sul canale verso Corfù, mentre rondini e rondoni girano sopra le mura in estate.",
+      "Le estati sono secche e la vegetazione è infiammabile: fuochi aperti e sigarette gettate via sono un vero pericolo sulla collina, quindi rispetta eventuali avvisi di sicurezza antincendio."
+    ]
+  },
+  "itineraries": {
+    "title": "Itinerari Consigliati",
+    "subtitle": "Tre percorsi su misura più un piano di mezza giornata e uno di giornata intera — combina in base al tuo ritmo.",
+    "audienceTitle": "Percorsi per Tipo di Viaggiatore",
+    "audiences": [
+      {
+        "id": "family",
+        "title": "Famiglie con Bambini",
+        "description": "Facile, poco stressante e adatto alle foto — tieni la salita breve e includi una ricompensa.",
+        "items": [
+          "Vai in auto o taxi al parcheggio in cima (evita la ripida camminata con i bambini).",
+          "Lascia che i bambini esplorino l'altopiano aperto e le torri rotonde sotto supervisione.",
+          "Premia la gita con un gelato o una bibita alla caffetteria in terrazza.",
+          "Programma la visita per il tardo pomeriggio così il tramonto intrattiene tutti."
+        ]
+      },
+      {
+        "id": "photo",
+        "title": "Fotografi e Natura",
+        "description": "Inseguì la migliore luce e il panorama più ampio su baia, isole e montagne.",
+        "items": [
+          "Arriva 90 minuti prima del tramonto per una luce soft e direzionale sulle mura di pietra.",
+          "Scatta il panorama a 360°: Corfù a ovest, Ksamil a sud, lago di Butrinto nell'entroterra.",
+          "Rimani per l'ora blu mentre le luci della città si accendono sotto.",
+          "Porta un treppiedi e una giacca leggera — la cima si raffredda rapidamente dopo il buio."
+        ]
+      },
+      {
+        "id": "accessible",
+        "title": "Basso Sforzo e Accessibile",
+        "description": "Camminata minima, sentieri lisci e la stessa famosa vista senza i bastioni.",
+        "items": [
+          "Taxi o auto direttamente al parcheggio in cima.",
+          "Goditi l'altopiano senza gradini e il punto panoramico della terrazza del ristorante.",
+          "Salta le irregolari scale diroccate; il panorama all'ingresso è già superbo.",
+          "Riposa al caffè e guarda la baia invece di scalare le mura."
+        ]
+      }
+    ],
+    "genericTitle": "Piani di Mezza Giornata e Giornata Intera",
+    "halfDayTitle": "Mezza Giornata (≈3 h)",
+    "halfDay": [
+      "Taxi o auto dal centro di Sarandë fino in cima.",
+      "Percorri l'altopiano del castello e le due torri rotonde, leggendo i pannelli informativi.",
+      "Fotografa il panorama e il tramonto dalla terrazza.",
+      "Un drink o una cena al ristorante in loco, poi ridiscendi."
+    ],
+    "fullDayTitle": "Giornata Intera (≈7 h)",
+    "fullDay": [
+      "Mattina: esplora il lungomare di Sarandë e il quartiere della città vecchia.",
+      "Tarda mattinata: taxi su a Lëkurësi Castle per l'altopiano, le mura e le viste.",
+      "Pranzo al ristorante del castello con il panorama sulla baia.",
+      "Pomeriggio: prosegui per le spiagge di Ksamil o il parco archeologico di Butrinto (≈18 km a sud).",
+      "Torna verso il tramonto e cogli l'ora dorata dal castello sulla via del ritorno."
+    ]
+  },
+  "responsibility": {
+    "title": "Patrimonio, Natura e Responsabilità dei Visitatori",
+    "subtitle": "Lëkurësi Castle è un monumento culturale protetto. Alcune semplici abitudini lo mantengono bello per tutti.",
+    "scienceTitle": "Perché il Castello è Importante",
+    "science": [
+      "Una fortezza ottomana del XVI secolo costruita nel 1537, è un raro esempio intatto delle piccole fortezze collinari che custodivano la costa albanese dello Ionio.",
+      "In quanto monumento protetto nell'ambito del quadro del patrimonio culturale albanese, le sue mura e torri non possono essere modificate o rimosse.",
+      "La sua posizione di cima la rende un punto panoramico vivo su tre coste e una tappa chiave sul corridoio culturale Sarandë–Butrinto.",
+      "La macchia attorno ad esso è un piccolo ma reale frammento di habitat mediterraneo, casa di uccelli, api e piante native."
+    ],
+    "rulesTitle": "Responsabilità dei Visitatori",
+    "rules": [
+      {
+        "title": "Proteggi le mura",
+        "description": "Non arrampicarti, sederti o appoggiarti sulla fragile muratura storica; usa i sentieri e la terrazza segnalati."
+      },
+      {
+        "title": "Porta via i tuoi rifiuti",
+        "description": "In cima ci sono pochi cestini. Porta via ciò che porti, soprattutto bottiglie e imballaggi."
+      },
+      {
+        "title": "Rispetta la sicurezza antincendio",
+        "description": "Le estati sono secche e il pendio è infiammabile. Nessun fuoco aperto, barbecue o sigarette gettate via."
+      },
+      {
+        "title": "Rimani sui sentieri",
+        "description": "Resta sui sentieri per proteggere la macchia ed evitare di smuovere pietre sui pendii."
+      },
+      {
+        "title": "Sii cortese al ristorante",
+        "description": "La terrazza è gestita privatamente; prenota in anticipo al tramonto e rispetta gli altri ospiti che godono della vista."
+      },
+      {
+        "title": "Onora il monumento",
+        "description": "Questo è un sito patrimoniale condiviso, non un parco giochi — aiuta a preservarlo per i visitatori futuri."
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Kalaja e Lëkurësit Sarandë — Udhëzues i Vizitës",
-    "description": "Kalaja e Lëkurësit (Lëkurësi Castle) në Sarandë, Shqipëri — një kala kodrinore falas me pamje panoramike të Detit Jon dhe pika perëndimi. Transport praktik, mot i drejtpërdrejtë, objekte, histori dhe udhëzues i plotë vizite."
+    "description": "Kalaja e Lëkurësit (Lëkurësi Castle) në Sarandë, Shqipëri — një kala kodrinore falas me pamje panoramike të Detit Jon dhe pika perëndimi. Hyrje falas, orët e hapura, si të arrini, mot i drejtpërdrejtë, objekte, histori dhe udhëzues i plotë vizite."
   },
   "header": {
     "home": "Kreu",
@@ -25,7 +25,7 @@
   },
   "intro": {
     "title": "Zbuloni Kalanë e Lëkurësit",
-    "description": "Kalaja e Lëkurësit (e njohur edhe si Lekursi Castle, ose lokalisht si Kalaja e Lëkurësit) është një kështjellë e rrënuar e shekullit të 16-të, e vendosur në një kodër strategjike me pamje nga Saranda, Shqipëri. E ndërtuar në vitin 1537 nga Sulltan Sulejmani i Madhërishëm, kalaja ofron pamje panoramike të lë pa frymë të qytetit, Detit Jon dhe ishullit të Korfuzit. Sot, ajo qëndron si një pikë referimi popullore dhe një pikë e mrekullueshme vëzhgimi, e njohur veçanërisht për perëndimet e saj spektakolare.",
+    "description": "Kalaja e Lëkurësit (e njohur edhe si Lekursi Castle, ose lokalisht si Kalaja e Lëkurësit) është një kështjellë e rrënuar e shekullit të 16-të, e vendosur në një kodër strategjike në Sarandë, Shqipëri, me pamje panoramike mbi qytetin. E ndërtuar në vitin 1537 nga Sulltan Sulejmani i Madhërishëm, kalaja ofron pamje panoramike të lë pa frymë të Sarandës, Detit Jon dhe ishullit të Korfuzit. Sot, ajo qëndron si një pikë referimi popullore dhe një pikë e mrekullueshme vëzhgimi mbi Sarandën, Shqipëri, e njohur veçanërisht për perëndimet e saj spektakolare.",
     "visitGuide": {
       "title": "Këshilla për Vizitën",
       "items": [
@@ -39,7 +39,7 @@
       "title": "Pikat Kryesore",
       "items": [
         "Rrënojat e kështjellës osmane të shekullit të 16-të",
-        "Pamje të lë pa frymë të Sarandës dhe Korfuzit",
+        "Pamje të lë pa frymë të Sarandës, Shqipëri dhe Korfuzit",
         "Pikë vëzhgimi për perëndimin e diellit",
         "Restorant në vend dhe muzikë tradicionale në verë"
       ]
@@ -379,22 +379,22 @@
     "title": "Galeria e Fotove",
     "subtitle": "Bukuria e Kalasë së Lëkurësit",
     "captions": [
-      "Rrënojat e kalasë dhe kullat",
-      "Pamje panoramike e Sarandës",
-      "Perëndimi i diellit mbi Detin Jon",
-      "Tarraca e restorantit brenda mureve",
-      "Pamje e ishullit të Korfuzit",
-      "Muraturë guri e shekullit të 16-të",
-      "Rruga piktoreske për në kala",
-      "Dritat e mbrëmjes në Sarandë",
-      "Ullishtat në shpatin e kodrës",
-      "Oborri i kalasë",
-      "Arkitektura historike",
-      "Pamje e Liqenit të Butrintit",
-      "Atmosfera e mbrëmjes së verës",
-      "Pamje nga kodra e kalasë",
-      "Ora e artë mbi gjirin",
-      "Pamje e perëndimit nga kalaja"
+      "Rrënojat dhe kullat e kalasë mbi kodër, që shikojnë mbi Sarandën, Shqipëri",
+      "Pamje panoramike e qytetit dhe gjirit të Sarandës nga Kalaja e Lëkurësit",
+      "Perëndim spektakolar mbi Detin Jon, parë nga Kalaja e Lëkurësit",
+      "Tarraca e restorantit brenda mureve të kalasë me pamje deti",
+      "Pamje e ishullit të Korfuzit përtej kanalit, nga pika e kalasë",
+      "Muraturë osmane e shekullit të 16-të në Kalanë e Lëkurësit",
+      "Rrugë e shtruar piktoreske që ngjitet në Kodrën e Lëkurësit",
+      "Dritat e mbrëmjes së Sarandës nga pika e kalasë mbi kodër",
+      "Ullishta dhe shkurre mesdhetare në shpatin poshtë kalasë",
+      "Oborri dhe muret e Kalasë së Lëkurësit",
+      "Arkitekturë historike fortesash dhe hapje të harkuara",
+      "Pamje e Liqenit të Butrintit dhe lagunës nga maja",
+      "Atmosferë e mbrëmjes së verës në pikën e njohur të perëndimit",
+      "Pamje e gjerë nga kodra e kalasë mbi Sarandën dhe bregun e Jonit",
+      "Drita e orës së artë mbi gjirin e Sarandës nga Kalaja e Lëkurësit",
+      "Pika e perëndimit nga Kalaja e Lëkurësit mbi Sarandën"
     ],
     "viewAll": "Shiko në Google Maps",
     "showAll": "Shiko të Gjitha Fotot",
@@ -555,7 +555,7 @@
   },
   "seasonal": {
     "title": "Udhëzues sipas Stinëve",
-    "subtitle": "Saranda ka klimë mesdhetare të butë. Përdorni këtë tabelë çerek-për-çerek për të zgjedhur kohën më të mirë dhe çfarë të merrni për në kodër.",
+    "subtitle": "Saranda, Shqipëri ka klimë mesdhetare të butë. Përdorni këtë tabelë çerek-për-çerek për të zgjedhur kohën më të mirë dhe çfarë të merrni për në kodër.",
     "cols": {
       "season": "Stina",
       "climate": "Moti & Klima",

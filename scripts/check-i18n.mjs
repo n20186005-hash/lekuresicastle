@@ -11,7 +11,7 @@ function load(locale) {
   return JSON.parse(readFileSync(join(messagesDir, `${locale}.json`), 'utf8'));
 }
 
-const locales = ['en', 'zh', 'sq'];
+const locales = ['en', 'zh', 'sq', 'it', 'fr'];
 const files = new Map(locales.map((l) => [l, load(l)]));
 const enFile = files.get('en');
 
