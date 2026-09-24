@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Lëkurësi Castle Saranda: Ultimate Sunset & Visitor Guide (2026)",
-    "description": "Visiting Lekuresi Castle in Saranda? Free entrance, panoramic Ionian views, hilltop restaurant, and taxi/walking info. Plan your sunset visit today!"
+    "title": "Lëkurësi Castle Sarandë — Travel Guide",
+    "description": "Lëkurësi Castle (Kalaja e Lëkurësit) in Sarandë, Albania — a free hilltop fortress with panoramic Ionian views and sunset viewpoints. Practical transport, live weather, facilities, history and a visitor guide."
   },
   "header": {
     "home": "Home",
@@ -131,10 +131,15 @@
     "sunrise": "Sunrise",
     "sunset": "Sunset",
     "sunsetTip": "Arrive 45–60 minutes before sunset to catch the golden hour over Corfu.",
-    "forecast": "Next 3 Days",
+    "forecast": "7-Day Forecast",
+    "precip": "Precipitation",
+    "precipNone": "Dry",
+    "rainChance": "Rain chance",
+    "umbrellaYes": "Rain is likely today — bring an umbrella or a light raincoat for the hilltop.",
+    "umbrellaNo": "No rain expected today — good conditions for the walk up and the viewpoint.",
     "loading": "Loading live weather…",
     "error": "Live weather is temporarily unavailable — check the local forecast on the day.",
-    "updated": "Live data via Open-Meteo",
+    "updated": "Live weather, updated around the clock",
     "conditions": {
       "clear": "Clear sky",
       "mainlyClear": "Mainly clear",
@@ -225,17 +230,17 @@
   "transport": {
     "title": "How to Get Here",
     "fromCenter": "From City Center",
-    "fromCenterDesc": "A taxi from Saranda center takes about 10 minutes and costs roughly €10–15 (1200–1800 LEK). Agree on the fare with the driver before setting off.",
+    "fromCenterDesc": "A taxi from Sarandë's center or seafront promenade takes about 10 minutes and costs roughly €10–15 (1,200–1,800 LEK). Agree the fare before you set off, or use a ride-hailing app where available. The taxi drops you at the summit, right by the castle walls.",
     "fromStation": "From Ferry Port",
-    "fromStationDesc": "About a 10-15 minute taxi ride from the Saranda Ferry Terminal directly to the castle.",
-    "fromAirport": "From Tirana/Corfu Airport",
-    "fromAirportDesc": "Travel to Saranda by bus (from Tirana) or ferry (from Corfu), then take a taxi to the hilltop.",
+    "fromStationDesc": "The Sarandë Ferry Terminal (to/from Corfu) is about 10–15 minutes by taxi. In summer, shuttle minibuses also run from the port area toward the city center, where you can change to a taxi for the final climb to the hilltop.",
+    "fromAirport": "From the Airports",
+    "fromAirportDesc": "Nearest airports: Tirana International Airport (TIA, ~280 km, 4–5 h by intercity bus or private transfer) and Corfu International Airport (CFU, Greece). From Corfu, take the ferry to Sarandë (≈30 min, frequent in summer), then a taxi up the hill. From Tirana, direct buses run several times a day to Sarandë; from the bus station a taxi completes the last 4 km to the summit.",
     "publicTransport": "Public Transport",
-    "publicTransportDesc": "There are no direct public buses up the hill. Taxis are the most convenient option.",
+    "publicTransportDesc": "There is no public bus that climbs all the way to the summit. Local buses and furgon minibuses connect Sarandë with nearby towns and stop along the lower mountain road; from the nearest stop it is a steep 20–30 minute walk or a short taxi ride. For the hilltop itself, a taxi remains the easiest option.",
     "walking": "Walking",
-    "walkingDesc": "A 45-60 minute uphill hike via a paved switchback road. Bring plenty of water in the summer!",
+    "walkingDesc": "From the city center, follow Rruga Mitat Hoxha uphill, then the paved switchback road (Rruga e Kalasë) — about 45–60 minutes on foot. The climb is exposed and steep; in summer start after 17:00 to avoid the midday heat and carry at least 1 L of water. Comfortable shoes are recommended.",
     "driving": "Driving",
-    "drivingDesc": "The paved road up Lekursi Hill is in good condition. Free parking is available right at the summit, but spaces fill up quickly in the half hour before sunset."
+    "drivingDesc": "The paved road up Lekursi Hill is in good condition and suitable for cars and tour coaches. Free parking sits at the summit just below the walls. Spaces fill quickly in the hour before sunset (June–September), so arrive early if you are driving."
   },
   "facilities": {
     "title": "Facilities & Services",
@@ -281,6 +286,16 @@
         "id": "atm",
         "title": "ATMs & Money",
         "description": "ATMs and currency exchanges are available in Sarandë's centre. Cards are accepted at most restaurants, but it is wise to carry some cash (LEK or EUR) as the hilltop offers no banking services."
+      },
+      {
+        "id": "medical",
+        "title": "Pharmacies & First Aid",
+        "description": "There is no pharmacy or medical post at the summit. Pharmacies, clinics and the Sarandë hospital are in the town centre, about a 10-minute drive away. Bring any personal medication, sunscreen and water with you, as the hilltop is exposed in summer."
+      },
+      {
+        "id": "accessibility",
+        "title": "Accessibility",
+        "description": "The castle plateau is reached by a short, gently sloping path from the summit car park, and the interior grounds are largely step-free and walkable. The historic stone stairs and ruined walls are uneven, so sturdy footwear helps; visitors with reduced mobility can enjoy the terrace and panorama near the entrance without climbing the ramparts."
       }
     ]
   },
@@ -537,5 +552,147 @@
     },
     "save": "Save Preferences",
     "saved": "Preferences Saved!"
+  },
+  "seasonal": {
+    "title": "Seasonal Visiting Guide",
+    "subtitle": "Sarandë has a mild Mediterranean climate. Use this quarter-by-quarter table to pick the best time and what to pack for the hilltop.",
+    "cols": {
+      "season": "Season",
+      "climate": "Weather & Climate",
+      "bestFor": "Best For",
+      "tip": "Visitor Tip"
+    },
+    "rows": [
+      {
+        "season": "Spring (Mar–May)",
+        "climate": "Mild and fresh, 15–23°C, occasional spring showers, wildflowers across the maquis.",
+        "bestFor": "Clear panoramas, hiking up, photography with soft light.",
+        "tip": "Bring a light jacket for the breezy summit; mornings can be cool."
+      },
+      {
+        "season": "Summer (Jun–Sep)",
+        "climate": "Hot and dry, 28–34°C, almost daily sunshine, busy with visitors.",
+        "bestFor": "Sunset dinners, swimming in Ksamil, lively evening atmosphere.",
+        "tip": "Go up after 17:00, carry water and sun protection; parking fills before sunset."
+      },
+      {
+        "season": "Autumn (Oct–Nov)",
+        "climate": "Warm and calm, 18–26°C, fewer crowds, sea still swimmable into October.",
+        "bestFor": "Golden-hour photography, comfortable walks, combining with Butrint.",
+        "tip": "The most balanced season — book restaurants ahead on weekends."
+      },
+      {
+        "season": "Winter (Dec–Feb)",
+        "climate": "Mild but wet, 10–15°C, rainy days and occasional clouds over the bay.",
+        "bestFor": "Quiet panoramas, dramatic stormy seascapes, lowest crowds.",
+        "tip": "Check the live forecast; some summit cafés close in low season."
+      }
+    ]
+  },
+  "ecological": {
+    "title": "Climate, Sea & Nature",
+    "subtitle": "A plain-language synthesis of Sarandë's long-term climate normals and the Ionian coastal environment around the castle — for planning, not as an official forecast.",
+    "points": [
+      "Sarandë sits in a Mediterranean climate belt: hot, dry summers and mild, wetter winters, with roughly 300 sunny days a year and very little summer rainfall.",
+      "The castle hill catches the sea breeze off the Ionian, so even on hot summer days the summit feels a few degrees cooler than the city below — but it is fully exposed to sun and wind.",
+      "The Ionian Sea here is clearest and warmest from late spring to early autumn (water often 22–26°C in summer), making the bay ideal for swimming and the viewpoint extra blue.",
+      "The slopes are covered with Mediterranean maquis — olive, myrtle, thorny broom and fragrant herbs — and in spring fill with wildflowers that attract bees and butterflies.",
+      "The coast lies on a major bird-migration corridor; in spring and autumn you may spot raptors and passing seabirds over the channel toward Corfu, while swifts and swallows wheel above the walls in summer.",
+      "Summers are dry and the vegetation is flammable: open fires and discarded cigarettes are a real hazard on the hill, so please respect any fire-safety notices."
+    ]
+  },
+  "itineraries": {
+    "title": "Recommended Itineraries",
+    "subtitle": "Three tailored routes plus a half-day and a full-day plan — mix and match to your pace.",
+    "audienceTitle": "Routes by Traveler Type",
+    "audiences": [
+      {
+        "id": "family",
+        "title": "Families with Kids",
+        "description": "Easy, low-stress and photo-friendly — keep the climb short and build in a treat.",
+        "items": [
+          "Drive or taxi to the summit car park (avoid the steep walk with little ones).",
+          "Let children explore the open plateau and round towers with supervision.",
+          "Reward the trip with ice cream or a soft drink at the terrace café.",
+          "Time the visit for late afternoon so the sunset entertains everyone."
+        ]
+      },
+      {
+        "id": "photo",
+        "title": "Photographers & Nature",
+        "description": "Chase the best light and the widest panorama across bay, islands and mountains.",
+        "items": [
+          "Arrive 90 minutes before sunset for soft, directional light on the stone walls.",
+          "Shoot the 360° panorama: Corfu west, Ksamil south, Butrint Lake inland.",
+          "Stay through blue hour as the city lights switch on below.",
+          "Bring a tripod and a light jacket — the summit cools quickly after dark."
+        ]
+      },
+      {
+        "id": "accessible",
+        "title": "Low-Effort & Accessible",
+        "description": "Minimal walking, smooth paths and the same famous view without the ramparts.",
+        "items": [
+          "Taxi or car directly to the summit car park.",
+          "Enjoy the step-free plateau and the restaurant terrace viewpoint.",
+          "Skip the uneven ruined stairs; the entrance panorama is already superb.",
+          "Rest at the café and watch the bay rather than climbing the walls."
+        ]
+      }
+    ],
+    "genericTitle": "Half-Day & Full-Day Plans",
+    "halfDayTitle": "Half-Day (≈3 h)",
+    "halfDay": [
+      "Taxi or drive from Sarandë center up to the summit.",
+      "Walk the castle plateau and the two round towers, reading the info panels.",
+      "Photograph the panorama and the sunset from the terrace.",
+      "A drink or dinner at the on-site restaurant, then return downhill."
+    ],
+    "fullDayTitle": "Full-Day (≈7 h)",
+    "fullDay": [
+      "Morning: explore Sarandë's promenade and the old town quarter.",
+      "Late morning: taxi up to Lëkurësi Castle for the plateau, walls and views.",
+      "Lunch at the castle restaurant with the bay panorama.",
+      "Afternoon: continue to Ksamil beaches or the Butrint archaeological park (≈18 km south).",
+      "Return toward sunset and catch the golden hour from the castle on the way back."
+    ]
+  },
+  "responsibility": {
+    "title": "Heritage, Nature & Visitor Responsibility",
+    "subtitle": "Lëkurësi Castle is a protected cultural monument. A few simple habits keep it beautiful for everyone.",
+    "scienceTitle": "Why the Castle Matters",
+    "science": [
+      "A 16th-century Ottoman fortress built in 1537, it is a rare intact example of the small hilltop strongholds that guarded the Albanian Ionian coast.",
+      "As a protected monument under Albania's cultural-heritage framework, its walls and towers may not be altered or removed.",
+      "Its hilltop position makes it a living viewpoint onto three coastlines and a key stop on the Sarandë–Butrint cultural corridor.",
+      "The maquis around it is a small but real fragment of Mediterranean habitat, home to birds, bees and native plants."
+    ],
+    "rulesTitle": "Visitor Responsibility",
+    "rules": [
+      {
+        "title": "Protect the walls",
+        "description": "Do not climb, sit on or lean against the fragile historic masonry; use the marked paths and terrace instead."
+      },
+      {
+        "title": "Take your litter away",
+        "description": "There are limited bins at the summit. Carry out what you bring, especially bottles and packaging."
+      },
+      {
+        "title": "Respect fire safety",
+        "description": "Summers are dry and the hillside is flammable. No open fires, barbecues or discarded cigarettes."
+      },
+      {
+        "title": "Stay on paths",
+        "description": "Keep to the trails to protect the maquis and avoid dislodging stones on the slopes."
+      },
+      {
+        "title": "Be considerate at the restaurant",
+        "description": "The terrace is privately run; book ahead at sunset and respect other guests enjoying the view."
+      },
+      {
+        "title": "Honour the monument",
+        "description": "This is a shared heritage site, not a playground — help preserve it for future visitors."
+      }
+    ]
   }
 }

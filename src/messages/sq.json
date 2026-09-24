@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Kalaja e Lëkurësit Sarandë: Udhëzuesi i Plotë & Pamjet (2026)",
-    "description": "Po vizitoni Kalanë e Lëkurësit në Sarandë? Hyrje falas, pamje panoramike të Detit Jon, restorant në majë dhe info për taksi/ecje. Planifikoni vizitën tuaj në perëndim të diellit!"
+    "title": "Kalaja e Lëkurësit Sarandë — Udhëzues i Vizitës",
+    "description": "Kalaja e Lëkurësit (Lëkurësi Castle) në Sarandë, Shqipëri — një kala kodrinore falas me pamje panoramike të Detit Jon dhe pika perëndimi. Transport praktik, mot i drejtpërdrejtë, objekte, histori dhe udhëzues i plotë vizite."
   },
   "header": {
     "home": "Kreu",
@@ -131,10 +131,15 @@
     "sunrise": "Lindja e Diellit",
     "sunset": "Perëndimi i Diellit",
     "sunsetTip": "Arritni 45–60 minuta para perëndimit për të kapur orën e artë mbi Korfuzin.",
-    "forecast": "3 Ditët Në Vazhdim",
+    "forecast": "Parashikimi 7-Ditësh",
+    "precip": "Reshqitje",
+    "precipNone": "Thatë",
+    "rainChance": "Shans për shi",
+    "umbrellaYes": "Sot ka gjasa për shi — merrni çati ose një mantel të lehtë për në kodër.",
+    "umbrellaNo": "Sot nuk pritet shi — kushte të mira për ngjitje dhe pamje.",
     "loading": "Duke ngarkuar motin e gjallë…",
     "error": "Moti i gjallë është përkohësisht i padisponueshëm — kontrolloni parashikimin lokal atë ditë.",
-    "updated": "Të dhëna të gjalla përmes Open-Meteo",
+    "updated": "Mot i drejtpërdrejtë, i përditësuar vazhdimisht",
     "conditions": {
       "clear": "Qiell i kthjellët",
       "mainlyClear": "Kryesisht i kthjellët",
@@ -225,17 +230,17 @@
   "transport": {
     "title": "Si të Vini Këtu",
     "fromCenter": "Nga Qendra e Qytetit",
-    "fromCenterDesc": "Një taksi nga qendra e Sarandës zgjat rreth 10 minuta dhe kushton rreth €10–15 (1200–1800 LEK). Bini dakord për tarifën me shoferin para nisjes.",
+    "fromCenterDesc": "Një taksi nga qendra ose shëtitorja e Sarandës zgjat rreth 10 minuta dhe kushton rreth €10–15 (1,200–1,800 LEK). Bini dakord për çmimin para nisjes, ose përdorni një aplikacion udhëtimi ku ekziston. Taksia ju lë në majë, buzë mureve të kalasë.",
     "fromStation": "Nga Porti i Trageteve",
-    "fromStationDesc": "Rreth 10-15 minuta udhëtim me taksi nga Terminali i Trageteve të Sarandës direkt në kala.",
-    "fromAirport": "Nga Aeroporti i Tiranës/Korfuzit",
-    "fromAirportDesc": "Udhëtoni në Sarandë me autobus (nga Tirana) ose traget (nga Korfuzi), pastaj merrni një taksi për në majë të kodrës.",
+    "fromStationDesc": "Terminali i Trageteve të Sarandës (drejt/kundër Korfuzit) është rreth 10–15 minuta me taksi. Në verë, minibusë shtegu ndjekin edhe nga zona e portit drejt qendrës, ku mund të kaloni në taksi për ngjitjen finale në kodër.",
+    "fromAirport": "Nga Aeroportet",
+    "fromAirportDesc": "Aeroportet më të afërta: Aeroporti Ndërkombëtar i Tiranës (TIA, ~280 km, 4–5 orë me autobus ndërqytetas ose transfer privat) dhe Aeroporti Ndërkombëtar i Korfuzit (CFU, Greqi). Nga Korfuzi, merrni tragetin për në Sarandë (≈30 min, i shpeshtë në verë), pastaj taksi lart në kodër; nga Tirana, autobusë direkt udhëtojnë disa herë në ditë për në Sarandë, dhe nga stacioni autobusëve një taksi mbulon 4 km e fundit.",
     "publicTransport": "Transporti Publik",
-    "publicTransportDesc": "Nuk ka autobusë publikë direkt për në kodër. Taksitë janë alternativa më e përshtatshme.",
+    "publicTransportDesc": "Nuk ka autobus publik që ngjitet deri në majë. Autobusët vendorë dhe minibusët furgon lidhin Sarandën me qytetet fqinje dhe ndalen përgjatë rrugës së poshtme të kodrës; nga stacioni më i afërt mban 20–30 minuta ecje e pjerrët ose një taksi e shkurtër. Për vetë majën, taksia mbetet opsioni më i lehtë.",
     "walking": "Në Këmbë",
-    "walkingDesc": "Një ngjitje 45-60 minuta përpjetë përmes një rruge të shtruar. Sillni shumë ujë gjatë verës!",
+    "walkingDesc": "Nga qendra e qytetit, ndiqni Rruga Mitat Hoxha lart, pastaj rrugën e shtruar me lakime (Rruga e Kalasë) — rreth 45–60 minuta në këmbë. Ngjitja është e ekspozuar dhe e pjerrët; në verë nisuni pas orës 17:00 për të shmangur vapën e mesditës dhe mbani të paktën 1 L ujë. Këpucë të rehatshme rekomandohen.",
     "driving": "Me Makinë",
-    "drivingDesc": "Rruga për lart është e shtruar dhe në gjendje të mirë. Parkim falas ofrohet pikërisht në majë."
+    "drivingDesc": "Rruga e shtruar lart Kodrës së Lëkurësit është në gjendje të mirë dhe e kalueshme për makina e autobusë turistikë. Parkim falas ndodhet në majë, poshtë mureve. Vendet mbushen shpejt një orë para perëndimit (qershori–shtatori), ndaj arritani herët nëse udhëtoni me makinë."
   },
   "facilities": {
     "title": "Objektet & Shërbimet",
@@ -281,6 +286,16 @@
         "id": "atm",
         "title": "Bankomat & Monedha",
         "description": "Bankomat dhe këmbimi valutor janë të disponueshëm në qendër të Sarandës. Shumica e restoranteve pranojnë karta, por këshillohet të mbani pak cash (LEK ose EUR), pasi në majë nuk ka shërbime bankare."
+      },
+      {
+        "id": "medical",
+        "title": "Farmaci & Ndihmë e Parë",
+        "description": "Në majë nuk ka farmaci apo pikë mjekësore. Farmacitë, klinikat dhe spitali i Sarandës ndodhen në qendër të qytetit, rreth 10 minuta me makinë. Merrni me vete ilaçe personale, krem me diell dhe ujë, pasi maja është e ekspozuar në verë."
+      },
+      {
+        "id": "accessibility",
+        "title": "Aksesueshmëria",
+        "description": "Nga parkimi i majës arrihet te pllatforma e kalasë përmes një pjese të shkurtër e pjerrët; zona e brendshme është kryesisht pa shkallë dhe e kalueshme. Shkallët historike prej guri dhe muret e rrënuara janë të çrregullta, prandaj këpucë të forta ndihmojnë; vizitorët me lëvizshmëri të reduktuar mund të shijojnë tarracën dhe pamjen afër hyrjes pa ngjitur mbi muret."
       }
     ]
   },
@@ -537,5 +552,147 @@
     },
     "save": "Ruaj Preferencat",
     "saved": "Preferencat u Ruajtën!"
+  },
+  "seasonal": {
+    "title": "Udhëzues sipas Stinëve",
+    "subtitle": "Saranda ka klimë mesdhetare të butë. Përdorni këtë tabelë çerek-për-çerek për të zgjedhur kohën më të mirë dhe çfarë të merrni për në kodër.",
+    "cols": {
+      "season": "Stina",
+      "climate": "Moti & Klima",
+      "bestFor": "Më e mira për",
+      "tip": "Këshilla"
+    },
+    "rows": [
+      {
+        "season": "Pranvera (marr–maj)",
+        "climate": "E butë dhe e freskët, 15–23°C, reshje pranverore të rralla, lule të egra në shkurret mesdhetare.",
+        "bestFor": "Panorama të qarta, ngjitje, fotografi me dritë të butë.",
+        "tip": "Merrni një xhaketë të lehtë për majën me erë; mëngjeset mund të jenë të ftohta."
+      },
+      {
+        "season": "Verë (qer–sht)",
+        "climate": "E nxehtë dhe e thatë, 28–34°C, pothuajse çdo ditë me diell, e mbushur me vizitorë.",
+        "bestFor": "Darkat në perëndim, not në Ksamil, atmosferë e gjallë mbrëmjeve.",
+        "tip": "Ngjitu pas orës 17:00, merr ujë dhe mbrojtje nga dielli; parkimi mbushet para perëndimit."
+      },
+      {
+        "season": "Vjeshtë (tet–nën)",
+        "climate": "E ngrohtë dhe e qetë, 18–26°C, më pak turma, deti ende i notueshëm deri në tetor.",
+        "bestFor": "Fotografi në orën e artë, ecje të rehatshme, kombinim me Butrintin.",
+        "tip": "Stina më e balancuar — rezervoni restorantet paraditen e fundjavave."
+      },
+      {
+        "season": "Dimër (dhj–shk)",
+        "climate": "E butë por me shi, 10–15°C, ditë me shi dhe re mbi gjirin herë pas here.",
+        "bestFor": "Panorama të qeta, peizazhe të furtunosura, më pak turma.",
+        "tip": "Kontrolloni parashikimin e drejtpërdrejtë; disa kafene në majë mbyllen jashtë sezonit."
+      }
+    ]
+  },
+  "ecological": {
+    "title": "Klima, Deti & Natyra",
+    "subtitle": "Një përmbledhje e thjeshtë e normaleve afatgjata klimatike të Sarandës dhe mjedisit bregdetar të Jonit përreth kalasë — për planifikim, jo si parashikim zyrtar.",
+    "points": [
+      "Saranda ndodhet në brezin e klimës mesdhetare: verë e nxehtë dhe e thatë, dimër i butë e me shi, me rreth 300 ditë me diell në vit dhe shumë pak reshje verore.",
+      "Kodra e kalasë kap erën detare nga Joni, kështu që edhe ditët e nxehta verore maja ndihet disa gradë më e ftohtë se qyteti poshtë — por është plotësisht e ekspozuar ndaj diellit dhe erës.",
+      "Deti Jon këtu është më i pastër dhe më i ngrohtë nga vona e pranverës te fillimi i vjeshtës (ujë shpesh 22–26°C në verë), duke e bërë gjirin ideal për not dhe pamjen ekstra blu.",
+      "Shpatet janë të mbuluara me shkurre mesdhetare — ullinj, mjellëz, dërvishtë dhe barishte aromatike — dhe në pranverë mbushën me lule të egra që tërheqin bletë dhe flutura.",
+      "Bregdeti ndodhet në një korridor të rëndësishëm migrimi shpendësh; në pranverë e vjeshtë mund të shihni raptorë dhe shpendë deti mbi kanalin drejt Korfuzit, ndërsa në verë djelli e tirë rrotullohen mbi muret.",
+      "Verërat janë të thata dhe vegjetacioni djegës: zjarret e hapura dhe cigaret e hedhura janë rrezik i vërtetë për kodrën, prandaj respektoni njoftimet për sigurinë nga zjarri."
+    ]
+  },
+  "itineraries": {
+    "title": "Itineraret e Rekomanduara",
+    "subtitle": "Tri rrugë të përshtatura plus një plan gjysmëdite dhe një ditë të plotë — kombinoni sipas ritmit tuaj.",
+    "audienceTitle": "Rrugë sipas Llojit të Vizitorit",
+    "audiences": [
+      {
+        "id": "family",
+        "title": "Familje me Fëmijë",
+        "description": "E lehtë, pa stres dhe e përshtatshme për foto — mbajini ngjitjen të shkurtër dhe shtoni një shpërblim.",
+        "items": [
+          "Makinë ose taksi deri në parkimin e majës (shmangni ecjen e pjerrët me fëmijët).",
+          "Lërini fëmijët të eksplorojnë pllatformën e hapur dhe kullat me mbikëqyrje.",
+          "Shpërblejini me akullore ose pije të lehtë në kafenenë e tarracës.",
+          "Planifiko vizitën vonë pasdite që perëndimi t'i argëtojë të gjithë."
+        ]
+      },
+      {
+        "id": "photo",
+        "title": "Fotografë & Natyrë",
+        "description": "Ndiqni dritën më të mirë dhe panoramën më të gjerë mbi gjirin, ishujt dhe malet.",
+        "items": [
+          "Arritni 90 minuta para perëndimit për dritë të butë, drejtuese mbi muret e gurit.",
+          "Fotografoni panoramën 360°: Korfuzi perëndim, Ksamili jug, Liqeni i Butrintit brendësi.",
+          "Qëndroni deri në orën blu kur dritat e qytetit ndezën poshtë.",
+          "Merrni një tripod dhe xhaketë të lehtë — maja ftohet shpejt pas errësirës."
+        ]
+      },
+      {
+        "id": "accessible",
+        "title": "Pa Mundësi të Larta & Aksesueshëm",
+        "description": "Ecje minimale, rrugë të sheshta dhe e njëjta pamje e famshme pa muret.",
+        "items": [
+          "Taksi ose makinë drejt parkimit të majës.",
+          "Shijoni pllatformën pa shkallë dhe pamjen e tarracës së restorantit.",
+          "Anashkaloni shkallët e çrregullta; panorama e hyrjes është tashmë e mrekullueshme.",
+          "Pushoni në kafe dhe shikoni gjirin në vend që të ngjitem mbi muret."
+        ]
+      }
+    ],
+    "genericTitle": "Plane Gjysmëdite & Ditë të Plotë",
+    "halfDayTitle": "Gjysmëdite (≈3 orë)",
+    "halfDay": [
+      "Taksi ose makinë nga qendra e Sarandës lart në majë.",
+      "Ecni pllatformën e kalasë dhe dy kullat e rrumbullakëta, lexoni panelat.",
+      "Fotografoni panoramën dhe perëndimin nga tarraca.",
+      "Një pije ose darkë në restorantin e kalasë, pastaj zbritni."
+    ],
+    "fullDayTitle": "Ditë e Plotë (≈7 orë)",
+    "fullDay": [
+      "Mëngjes: eksploroni shëtitorjen e Sarandës dhe lagjen e vjetër.",
+      "Vonë mëngjes: taksi lart te Kalaja e Lëkurësit për pllatformën, muret dhe pamjen.",
+      "Drekë në restorantin e kalasë me panoramë mbi gjirin.",
+      "Pasdite: vazhdoni te plazhet e Ksamilit ose parku arkeologjik i Butrintit (≈18 km në jug).",
+      "Kthehuni drejt perëndimit dhe kapni orën e artë nga kalaja në rrugën e kthimit."
+    ]
+  },
+  "responsibility": {
+    "title": "Trashëgimia, Natyra & Përgjegjësia e Vizitorit",
+    "subtitle": "Kalaja e Lëkurësit është një monument i mbrojtur kulture. Disa zakone të thjeshta e mbajnë të bukur për të gjithë.",
+    "scienceTitle": "Pse Kalaja ka Rëndësi",
+    "science": [
+      "Një fortesë osmane e shekullit të 16-të e ndërtuar më 1537, është një shembull i rrallë i ruajtur i pikave të vogla kodrinore që ruajtën bregun shqiptar të Jonit.",
+      "Si monument i mbrojtur në kuadrin e trashëgimisë kulturore të Shqipërisë, muret dhe kullat e saj nuk guxohen ndryshuar apo hequr.",
+      "Pozicioni në majë e bën një pikë vëzhgimi e gjallë mbi disa bregdete dhe një ndalesë kyçe në korridorin kulturor Sarandë–Butrint.",
+      "Shkurret përreth janë një fragment i vogël por i vërtetë i habitatit mesdhetar, vend i shpendëve, bletëve dhe bimëve vendase."
+    ],
+    "rulesTitle": "Përgjegjësia e Vizitorit",
+    "rules": [
+      {
+        "title": "Mbroni muret",
+        "description": "Mos ngjitu, mos u ulni ose mbështetuni te muratura e brishtë historike; përdorni shtigjet dhe tarracën e shenjuar."
+      },
+      {
+        "title": "Merrni plehrat",
+        "description": "Në majë ka pak koshi. Çfarë merrni, çoni me vete, veçanërisht shishe dhe ambalazhe."
+      },
+      {
+        "title": "Respektoni sigurinë nga zjarri",
+        "description": "Verërat janë të thata dhe kodra djegëse. Asnjë zjarr i hapur, skara ose cigare të hedhura."
+      },
+      {
+        "title": "Qëndroni në shtigje",
+        "description": "Mbani te shtigjet për të mbrojtur shkurret dhe shmangni rrëshqitjen e gurëve në shpat."
+      },
+      {
+        "title": "Bëhuni të sjellshëm në restorant",
+        "description": "Tarraca drejtohet privatisht; rezervoni paraditen e perëndimit dhe respektoni vizitorët e tjerë."
+      },
+      {
+        "title": "Nderoni monumentin",
+        "description": "Ky është vend i përbashkët trashëgimie, jo fushë loje — ndihmoni ta ruajmë për vizitorët e ardhshëm."
+      }
+    ]
   }
 }

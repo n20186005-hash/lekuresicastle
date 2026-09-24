@@ -57,6 +57,20 @@ const icons: Record<string, React.ReactNode> = {
       <line x1="17" y1="15" x2="17" y2="15" />
     </>
   ),
+  medical: (
+    <>
+      <path d="M12 3v18" />
+      <path d="M3 12h18" />
+    </>
+  ),
+  accessibility: (
+    <>
+      <circle cx="12" cy="4" r="2" />
+      <path d="M12 22v-6" />
+      <path d="M5 8l7 3 7-3" />
+      <path d="M12 16l-3 6M12 16l3 6" />
+    </>
+  ),
 };
 
 export default function FacilitiesSection() {

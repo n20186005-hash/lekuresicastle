@@ -13,6 +13,9 @@ import HistorySection from '@/components/HistorySection';
 import InfoSection from '@/components/InfoSection';
 import LegendsSection from '@/components/LegendsSection';
 import FacilitiesSection from '@/components/FacilitiesSection';
+import SeasonalSection from '@/components/SeasonalSection';
+import ItinerariesSection from '@/components/ItinerariesSection';
+import ResponsibilitySection from '@/components/ResponsibilitySection';
 import RouteSection from '@/components/RouteSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
@@ -135,13 +138,13 @@ export default async function HomePage({
       '@type': 'WebSite',
       '@id': `${baseUrl}/#website`,
       url: `${baseUrl}/`,
-      name: 'Lëkurësi Castle Visitor Guide',
+      name: 'Lëkurësi Castle Sarandë — Travel Guide',
       description: messages?.meta?.description || '',
       inLanguage: ['en', 'zh', 'sq'],
       publisher: {
         '@type': 'Organization',
         '@id': `${baseUrl}/#organization`,
-        name: 'Lëkurësi Castle Visitor Guide',
+        name: 'Lëkurësi Castle Sarandë — Travel Guide',
         url: `${baseUrl}/`,
       },
     },
@@ -160,10 +163,13 @@ export default async function HomePage({
         <WeatherSection />
         <TicketsSection />
         <TransportSection />
+        <SeasonalSection />
+        <ItinerariesSection />
         <HistorySection />
         <InfoSection />
         <LegendsSection />
         <FacilitiesSection />
+        <ResponsibilitySection />
         <RouteSection />
         <Gallery />
         <Reviews />
