@@ -1,18 +1,7 @@
-import { getLocale, getTranslations } from 'next-intl/server';
-import type { ReactNode } from 'react';
+'use client';
 
-// Lëkurësi Castle 坐标（与 Google Maps 嵌入 & JSON-LD geo 一致）
-const LAT = 39.86587795;
-const LON = 20.0257742;
-// 服务器端取数并缓存 30 分钟（游客只需知道“天气准不准、要不要带伞”）
-const REVALIDATE_SECONDS = 1800;
-
-// 天气接口地址在代码层使用，不在前端页面展示任何来源/密钥字样
-const API_URL =
-  `https://api.open-meteo.com/v1/forecast?latitude=${LAT}&longitude=${LON}` +
-  `&current=temperature_2m,apparent_temperature,relative_humidity_2m,weather_code,wind_speed_10m,precipitation` +
-  `&daily=weather_code,temperature_2m_max,temperature_2m_min,sunrise,sunset,precipitation_probability_max` +
-  `&timezone=Europe%2FTirane&forecast_days=7`;
+import { useEffect, useState, type ReactNode } from 'react';
+import { useLocale, useTranslations } from 'next-intl';
 
 type WeatherResponse = {
   current: {
@@ -157,24 +146,47 @@ function toHHMM(iso: string) {
   return iso.slice(11, 16);
 }
 
-async function getWeather(): Promise<WeatherResponse> {
-  const res = await fetch(API_URL, { next: { revalidate: REVALIDATE_SECONDS } });
-  if (!res.ok) throw new Error('weather fetch failed');
-  return (await res.json()) as WeatherResponse;
+function Metric({ label, value }: { label: string; value: string }) {
+  return (
+    <div
+      className="rounded-lg p-3"
+      style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+    >
+      <p className="text-xs mb-1" style={{ color: 'var(--text-muted)' }}>
+        {label}
+      </p>
+      <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
+        {value}
+      </p>
+    </div>
+  );
 }
 
-export default async function WeatherSection() {
-  const t = await getTranslations('weather');
-  const locale = await getLocale();
+export default function WeatherSection() {
+  const t = useTranslations('weather');
+  const locale = useLocale();
   const bcp = localeBcpMap[locale] || locale;
 
-  let data: WeatherResponse | null = null;
-  let error = false;
-  try {
-    data = await getWeather();
-  } catch {
-    error = true;
-  }
+  const [data, setData] = useState<WeatherResponse | null>(null);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/weather')
+      .then((res) => {
+        if (!res.ok) throw new Error('weather fetch failed');
+        return res.json();
+      })
+      .then((json: WeatherResponse) => {
+        if (!cancelled) setData(json);
+      })
+      .catch(() => {
+        if (!cancelled) setError(true);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const todayCode = data ? data.daily.weather_code[0] : 0;
   const todayPrecip = data ? data.daily.precipitation_probability_max[0] : 0;
@@ -374,21 +386,5 @@ export default async function WeatherSection() {
         )}
       </div>
     </section>
-  );
-}
-
-function Metric({ label, value }: { label: string; value: string }) {
-  return (
-    <div
-      className="rounded-lg p-3"
-      style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
-    >
-      <p className="text-xs mb-1" style={{ color: 'var(--text-muted)' }}>
-        {label}
-      </p>
-      <p className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>
-        {value}
-      </p>
-    </div>
   );
 }
