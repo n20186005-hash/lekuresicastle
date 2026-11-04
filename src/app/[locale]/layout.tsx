@@ -4,9 +4,15 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
 import Script from 'next/script';
-
-const baseUrl = 'https://lekuresicastle.com';
-const HERO_IMAGE = `${baseUrl}/gallery/lekuresi-castle-02.jpg`;
+import {
+  HERO_IMAGE_URL,
+  HTML_LANG,
+  isLocale,
+  localeUrl,
+  OG_LOCALE,
+  SITE_URL,
+  type Locale,
+} from '@/lib/site';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -18,22 +24,23 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!isLocale(locale)) return {};
   const messages = (await import(`@/messages/${locale}.json`)).default;
 
   return {
-    metadataBase: new URL(baseUrl),
+    metadataBase: new URL(SITE_URL),
     title: messages.meta.title,
     description: messages.meta.description,
     openGraph: {
       title: messages.meta.title,
       description: messages.meta.description,
-      url: `${baseUrl}/${locale}`,
+      url: localeUrl(locale as Locale),
       siteName: 'Lëkurësi Castle',
-      locale: locale === 'zh' ? 'zh_CN' : locale === 'sq' ? 'sq_AL' : locale === 'it' ? 'it_IT' : locale === 'fr' ? 'fr_FR' : 'en_US',
+      locale: OG_LOCALE[locale as Locale],
       type: 'website',
       images: [
         {
-          url: HERO_IMAGE,
+          url: HERO_IMAGE_URL,
           width: 1200,
           height: 630,
           alt: 'Lëkurësi Castle - Main view in Sarandë, Albania',
@@ -44,7 +51,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: messages.meta.title,
       description: messages.meta.description,
-      images: [HERO_IMAGE],
+      images: [HERO_IMAGE_URL],
     },
   };
 }
@@ -66,7 +73,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale === 'zh' ? 'zh-CN' : locale === 'sq' ? 'sq-AL' : locale === 'it' ? 'it-IT' : 'en'} suppressHydrationWarning>
+    <html lang={isLocale(locale) ? HTML_LANG[locale] : 'en'} suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{

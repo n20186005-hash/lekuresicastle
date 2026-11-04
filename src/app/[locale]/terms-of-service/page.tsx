@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations, useLocale, useMessages } from 'next-intl';
 import type { Metadata } from 'next';
+import { isLocale, localeUrl, sharedPathLanguages, type Locale } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -8,21 +9,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://lekuresicastle.com';
-  const zhUrl = `${baseUrl}/zh/terms-of-service`;
-  const enUrl = `${baseUrl}/en/terms-of-service`;
-  const sqUrl = `${baseUrl}/sq/terms-of-service`;
-  const selfUrl = `${baseUrl}/${locale}/terms-of-service`;
+  if (!isLocale(locale)) return {};
+  const path = '/terms-of-service';
 
   return {
     alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'sq': sqUrl,
-        'x-default': sqUrl,
-      },
+      canonical: localeUrl(locale as Locale, path),
+      languages: sharedPathLanguages(path),
     },
   };
 }

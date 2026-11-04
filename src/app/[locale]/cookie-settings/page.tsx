@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import CookieSettingsClient from './CookieSettingsClient';
+import { isLocale, localeUrl, sharedPathLanguages, type Locale } from '@/lib/site';
 
 export async function generateMetadata({
   params,
@@ -8,21 +9,13 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://lekuresicastle.com';
-  const zhUrl = `${baseUrl}/zh/cookie-settings`;
-  const enUrl = `${baseUrl}/en/cookie-settings`;
-  const sqUrl = `${baseUrl}/sq/cookie-settings`;
-  const selfUrl = `${baseUrl}/${locale}/cookie-settings`;
+  if (!isLocale(locale)) return {};
+  const path = '/cookie-settings';
 
   return {
     alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'sq': sqUrl,
-        'x-default': sqUrl,
-      },
+      canonical: localeUrl(locale as Locale, path),
+      languages: sharedPathLanguages(path),
     },
   };
 }

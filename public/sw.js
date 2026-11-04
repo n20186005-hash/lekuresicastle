@@ -1,6 +1,6 @@
 /* Lëkurësi Castle - Service Worker */
-const CACHE = 'lekuresi-castle-v1';
-const PRECACHE_URLS = ['/sq', '/en', '/zh', '/manifest.webmanifest'];
+const CACHE = 'lekuresi-castle-v2';
+const PRECACHE_URLS = ['/en', '/sq', '/it', '/fr', '/zh', '/en/guides', '/manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

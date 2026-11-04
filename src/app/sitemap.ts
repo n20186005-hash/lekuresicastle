@@ -1,41 +1,61 @@
-import { MetadataRoute } from 'next';
+import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
+import { allTopicRoutes, getTopic, HUB_PATH, publishedLocales } from '@/data/topics';
+import {
+  CHECKED_DATE,
+  localeUrl,
+  sharedPathLanguages,
+  topicLanguages,
+  type Locale,
+} from '@/lib/site';
 
+/** Only canonical, actually published URLs are listed. */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://lekuresicastle.com';
-  const lastModified = new Date('2026-08-31');
-
+  const lastModified = new Date(CHECKED_DATE);
   const entries: MetadataRoute.Sitemap = [];
 
-  const pages = [
+  const sharedPages = [
     { path: '', priority: 1 },
-    { path: '/privacy-policy', priority: 0.5 },
-    { path: '/terms-of-service', priority: 0.5 },
-    { path: '/cookie-settings', priority: 0.5 },
+    { path: '/privacy-policy', priority: 0.3 },
+    { path: '/terms-of-service', priority: 0.3 },
+    { path: '/cookie-settings', priority: 0.3 },
   ];
 
   for (const locale of routing.locales) {
-    for (const page of pages) {
-      const url = `${baseUrl}/${locale}${page.path}`;
+    for (const page of sharedPages) {
       entries.push({
-        url,
+        url: localeUrl(locale as Locale, page.path),
         lastModified,
-        changeFrequency: 'weekly',
+        changeFrequency: page.path === '' ? 'weekly' : 'yearly',
         priority: page.priority,
-        alternates: {
-          languages: Object.fromEntries(
-            routing.locales.map((l) => [
-              l === 'en' ? 'en' : l,
-              `${baseUrl}/${l}${page.path}`,
-            ])
-          ),
-        },
+        alternates: { languages: sharedPathLanguages(page.path) },
       });
     }
   }
 
-  // x-default 指向国际通用语言（en，GSC 数据显示 /en 为流量主导页）
-  entries[0].alternates!.languages!['x-default'] = `${baseUrl}/en`;
+  for (const locale of ['en', 'sq'] as Locale[]) {
+    entries.push({
+      url: localeUrl(locale, HUB_PATH),
+      lastModified,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+      alternates: { languages: topicLanguages(HUB_PATH, ['en', 'sq']) },
+    });
+  }
+
+  for (const { locale, slug } of allTopicRoutes()) {
+    const topic = getTopic(slug);
+    if (!topic) continue;
+    const priority = topic.priority === 'P0' ? 0.8 : topic.priority === 'P1' ? 0.7 : 0.6;
+    const path = `/${slug}`;
+    entries.push({
+      url: localeUrl(locale, path),
+      lastModified,
+      changeFrequency: 'monthly',
+      priority,
+      alternates: { languages: topicLanguages(path, publishedLocales(slug)) },
+    });
+  }
 
   return entries;
 }

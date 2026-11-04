@@ -5,11 +5,11 @@ export default function manifest(): MetadataRoute.Manifest {
     name: 'Lëkurësi Castle — Visitor Guide',
     short_name: 'Lëkurësi Castle',
     description: 'Comprehensive visitor guide to Lëkurësi Castle in Sarandë, Albania.',
-    start_url: '/sq',
+    start_url: '/en',
     display: 'standalone',
     background_color: '#faf8f4',
     theme_color: '#3a7a8d',
-    lang: 'sq',
+    lang: 'en',
     categories: ['travel', 'tourism', 'history'],
     icons: [
       { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },

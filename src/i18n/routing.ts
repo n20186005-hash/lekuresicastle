@@ -2,8 +2,11 @@ import { defineRouting } from 'next-intl/routing';
 import { createNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
+  // English is the primary language: /en carries the large majority of GSC
+  // clicks and is also the x-default target and the root redirect destination.
   locales: ['en', 'zh', 'sq', 'it', 'fr'],
-  defaultLocale: 'sq',
+  defaultLocale: 'en',
+  localeDetection: false,
   localePrefix: {
     mode: 'always',
   },

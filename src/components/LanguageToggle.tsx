@@ -16,6 +16,12 @@ export default function LanguageToggle() {
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
+  // Long-tail guides exist only in en/sq. Switching locale from such a page
+  // must not produce a link to an unpublished translation.
+  const guidePrefixes = ['guides', 'history', 'nearby', 'itineraries', 'comparisons'];
+  const isGuidePath = guidePrefixes.some(
+    (prefix) => pathname === `/${prefix}` || pathname.startsWith(`/${prefix}/`)
+  );
   const [isPending, startTransition] = useTransition();
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
@@ -64,7 +70,7 @@ export default function LanguageToggle() {
               onClick={() => {
                 setOpen(false);
                 startTransition(() => {
-                  router.replace(pathname, { locale: loc });
+                  router.replace(isGuidePath ? '/' : pathname, { locale: loc });
                 });
               }}
               className="block w-full text-left px-4 py-2.5 text-sm transition-colors"

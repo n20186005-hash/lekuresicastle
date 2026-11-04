@@ -24,8 +24,26 @@ import FAQSection from '@/components/FAQSection';
 import SourcesSection from '@/components/SourcesSection';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
+import TopicLinks from '@/components/TopicLinks';
+import QuickActions from '@/components/QuickActions';
+import {
+  ATTRACTION,
+  ATTRACTION_ID,
+  CHECKED_DATE,
+  HERO_IMAGE_URL,
+  homeLanguages,
+  IN_LANGUAGE,
+  isLocale,
+  localeUrl,
+  locales,
+  MAPS_URL,
+  PLUS_CODE,
+  RATING,
+  SITE_URL,
+  type Locale,
+} from '@/lib/site';
 
-const baseUrl = 'https://lekuresicastle.com';
+const baseUrl = SITE_URL;
 
 export async function generateMetadata({
   params,
@@ -33,28 +51,14 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  if (!isLocale(locale)) return {};
   return {
     alternates: {
-      canonical: `${baseUrl}/${locale}`,
-      languages: {
-        'zh': `${baseUrl}/zh`,
-        'en': `${baseUrl}/en`,
-        'sq': `${baseUrl}/sq`,
-        'x-default': `${baseUrl}/en`,
-      },
+      canonical: localeUrl(locale as Locale),
+      languages: homeLanguages(),
     },
   };
 }
-
-const ALL_DAYS = [
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-  'Sunday',
-];
 
 export default async function HomePage({
   params,
@@ -65,48 +69,48 @@ export default async function HomePage({
   setRequestLocale(locale);
 
   const messages = (await getMessages()) as any;
-  const url = `${baseUrl}/${locale}`;
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/Vh8wMe2L3UsdvpAC8';
+  const url = localeUrl(locale as Locale);
+  const mapsLink = messages?.hero?.mapsLink || MAPS_URL;
   const faqItems = (messages?.faq?.items || []) as Array<{
     question: string;
     answer: string;
   }>;
   const galleryCaptions = (messages?.gallery?.captions || []) as string[];
-  const inLanguage =
-    locale === 'zh' ? 'zh-CN' : locale === 'sq' ? 'sq-AL' : locale === 'it' ? 'it-IT' : locale === 'fr' ? 'fr-FR' : 'en';
+  const inLanguage = IN_LANGUAGE[locale as Locale] ?? 'en';
 
   const jsonLd = [
     {
       '@context': 'https://schema.org',
       '@type': 'TouristAttraction',
-      '@id': `${baseUrl}/#attraction`,
+      '@id': ATTRACTION_ID,
       name: 'Lëkurësi Castle',
-      alternateName: ['Lekursi Castle', 'Kalaja e Lëkurësit'],
+      alternateName: [
+        'Lekuresi Castle',
+        'Lekursi Castle',
+        'Kalaja e Lëkurësit',
+        'Saranda Castle',
+      ],
       description: messages?.meta?.description || '',
       url,
-      image: `${baseUrl}/gallery/lekuresi-castle-02.jpg`,
-      isAccessibleForFree: true,
+      image: HERO_IMAGE_URL,
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Sarandë',
-        addressRegion: 'Vlorë County',
-        postalCode: '9701',
-        addressCountry: 'AL',
+        addressLocality: ATTRACTION.locality,
+        addressRegion: ATTRACTION.region,
+        postalCode: ATTRACTION.postalCode,
+        addressCountry: ATTRACTION.country,
       },
       geo: {
         '@type': 'GeoCoordinates',
-        latitude: 39.86587795,
-        longitude: 20.0257742,
+        latitude: ATTRACTION.latitude,
+        longitude: ATTRACTION.longitude,
+      },
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: RATING.value,
+        reviewCount: RATING.count,
       },
       hasMap: mapsLink,
-      openingHoursSpecification: [
-        {
-          '@type': 'OpeningHoursSpecification',
-          dayOfWeek: ALL_DAYS,
-          opens: '08:00',
-          closes: '23:00',
-        },
-      ],
       sameAs: [mapsLink, 'https://albania.al/'],
     },
     {
@@ -131,7 +135,7 @@ export default async function HomePage({
       description: messages?.meta?.description || '',
       inLanguage,
       datePublished: '2026-01-15',
-      dateModified: '2026-08-31',
+      dateModified: CHECKED_DATE,
       isPartOf: { '@id': `${baseUrl}/#website` },
     },
     {
@@ -141,7 +145,7 @@ export default async function HomePage({
       url: `${baseUrl}/`,
       name: 'Lëkurësi Castle Sarandë — Travel Guide',
       description: messages?.meta?.description || '',
-      inLanguage: ['en', 'zh', 'sq'],
+      inLanguage: [...locales],
       publisher: {
         '@type': 'Organization',
         '@id': `${baseUrl}/#organization`,
@@ -173,7 +177,13 @@ export default async function HomePage({
       <Header />
       <main>
         <Hero />
+        {locale === 'en' && (
+          <div className="px-4 sm:px-6 py-2 text-center text-sm" style={{ color: 'var(--text-secondary)' }}>
+            ★ {RATING.value} / 5 · {RATING.count.toLocaleString('en-US')} Google reviews
+          </div>
+        )}
         <QuickFacts />
+        <QuickActions locale={locale as Locale} />
         <Intro />
         <BasicInfo />
         <HoursSection />
@@ -191,6 +201,7 @@ export default async function HomePage({
         <Gallery />
         <Reviews />
         <FAQSection />
+        <TopicLinks locale={locale as Locale} />
         <SourcesSection />
         <MapEmbed />
       </main>

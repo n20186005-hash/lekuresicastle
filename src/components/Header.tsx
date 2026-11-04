@@ -43,7 +43,7 @@ export default function Header() {
           ] as const).map((item) => (
             <a
               key={item.key}
-              href={`/${locale}/#${item.id}`}
+              href={`/${locale}#${item.id}`}
               className="text-sm font-medium transition-colors"
               style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
